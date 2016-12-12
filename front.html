@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" id="fix">
+<head>
+	<meta charset="UTF-8">
+	<title>MRI</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	<!--fontAwesome-->
+	<script src="https://use.fontawesome.com/8b78626aad.js"></script>
+	
+	<!--css-->
+    <link rel="stylesheet" type="text/css" href="css/ex.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default b">
+		<div class="header">
+			<img src="images/logo1.png" class="img-responsive logo2" alt="">
+		</div>
+		<div class="s">
+			<ul class="rightNav">
+            <li><img src="images/logPic1.png" alt="" class="logPic"></li>
+            <li><p>Welcome patient 346hft8</p></li>
+            </ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 ">
+				<div class="well">
+					<img src="images/front.png" alt="" class="frontImg">
+					<a href="front.html" class="btn btn-info">FRONT</a>
+				</div>
+				<div class="well">
+					<img src="images/back.png" alt="" class="backImg">
+					<a href="back.html" class="btn btn-danger">BACK</a>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6  avatar">
+				<img src="images/middleFront.png" alt="" class="centerImgF" usemap="#image-map" >
+                <map name="image-map" id="image-map">
+                    <area target="_blank" alt="" title="" id="a1" href="" coords="260,50,30" shape="circle" />
+                    <div class="plus-feature" id="ear" onmouseover="writeText('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visible()" onmouseout="writeText(''), hiddenDiv()" >
+                    </div>
+                    <area target="_blank" alt="" title="" href="" coords="180,160,30" shape="circle" />
+                    <div class="plus-feature" id="cameras" onmouseover="text('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visibleR()" onmouseout="text(''), hiddenR()"></div>
+                    <area target="_blank" alt="" title="" href="" coords="250,190,30" shape="circle" />
+                    <div class="plus-feature" id="power" onmouseover="text2('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visibleG()" onmouseout="text2(''), hiddenG()"></div>
+                    <area target="_blank" alt="" title="" href="" coords="240,360,30" shape="circle" />
+                    <div class="plus-feature" id="mute" onmouseover="text3('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visibleO()" onmouseout="text3(''), hiddenO()"></div>
+                    <area target="_blank" alt="" title="" href="" coords="280,310,30" shape="circle" />
+                    <div class="plus-feature" id="screen" onmouseover="text4('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visibleP()" onmouseout="text4(''), hiddenP()"></div>
+                </map>  
+                <div id="desc" style="visibility: hidden;"></div> 
+                <div id="desc2" style="visibility: hidden;"></div>
+                <div id="desc3" style="visibility: hidden;"></div>
+                <div id="desc4" style="visibility: hidden;"></div>
+                <div id="desc5" style="visibility: hidden;"></div>
+			</div> 
+			<div class="col-lg-3 col-md-3 col-sm-3 ">
+				<div class="swipeB"></div>
+				<div class="blueSwipe" style="display: none;">
+					<p>Right Side Swipe Questionnaire</p>
+				</div>
+				<div class="swipeR"></div>
+				<div class="redSwipe" style="display: none;">
+					<p>Right Side Swipe Questionnaire</p>
+				</div>
+				<div class="swipeG"></div>
+				<div class="greenSwipe" style="display: none;">
+					<p>Right Side Swipe Questionnaire</p>
+				</div>
+				<div class="swipeP"></div>
+				<div class="purpleSwipe" style="display: none;">
+					<p>Right Side Swipe Questionnaire</p>
+				</div>
+				<div class="swipeO"></div>
+				<div class="orangeSwipe" style="display: none;">
+					<p>Right Side Swipe Questionnaire</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer class="min">
+		<p>Property of MRI Safety Regulator 2016.</p>
+	</footer>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+    $(".swipeB").click(function(){
+        $(".blueSwipe").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeB").click(function(){
+        $(".swipeB").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".blueSwipe").click(function(){
+        $(".blueSwipe").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".blueSwipe").click(function(){
+        $(".swipeB").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeR").click(function(){
+        $(".redSwipe").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeR").click(function(){
+        $(".swipeR").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".redSwipe").click(function(){
+        $(".redSwipe").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".redSwipe").click(function(){
+        $(".swipeR").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeG").click(function(){
+        $(".greenSwipe").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeG").click(function(){
+        $(".swipeG").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".greenSwipe").click(function(){
+        $(".greenSwipe").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".greenSwipe").click(function(){
+        $(".swipeG").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeP").click(function(){
+        $(".purpleSwipe").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeP").click(function(){
+        $(".swipeP").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".purpleSwipe").click(function(){
+        $(".purpleSwipe").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".purpleSwipe").click(function(){
+        $(".swipeP").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeO").click(function(){
+        $(".orangeSwipe").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeO").click(function(){
+        $(".swipeO").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".orangeSwipe").click(function(){
+        $(".orangeSwipe").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".orangeSwipe").click(function(){
+        $(".swipeO").show('slow');
+    });
+    }); 
+
+    function writeText(txt) {
+        document.getElementById("desc").innerHTML = txt;
+    }
+    function text(txt) {
+        document.getElementById("desc2").innerHTML = txt;
+    }
+    function text2(txt) {
+        document.getElementById("desc3").innerHTML = txt;
+    }
+    function text3(txt) {
+        document.getElementById("desc4").innerHTML = txt;
+    }
+    function text4(txt) {
+        document.getElementById("desc5").innerHTML = txt;
+    }
+    function visible() {
+    document.getElementById("desc").style.visibility = "visible";
+    }
+    function hiddenDiv() {
+        document.getElementById("desc").style.visibility= "hidden";
+    }
+    function visibleR() {
+    document.getElementById("desc2").style.visibility = "visible";
+    }
+    function hiddenR() {
+        document.getElementById("desc2").style.visibility= "hidden";
+    }
+    function visibleG() {
+    document.getElementById("desc3").style.visibility = "visible";
+    }
+    function hiddenG() {
+        document.getElementById("desc3").style.visibility= "hidden";
+    }
+    function visibleO() {
+    document.getElementById("desc4").style.visibility = "visible";
+    }
+    function hiddenO() {
+        document.getElementById("desc4").style.visibility= "hidden";
+    }
+    function visibleP() {
+    document.getElementById("desc5").style.visibility = "visible";
+    }
+    function hiddenP() {
+        document.getElementById("desc5").style.visibility= "hidden";
+    }
+	</script> 
+
+</body>
+</html>

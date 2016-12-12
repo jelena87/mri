@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" id="fix">
+<head>
+	<meta charset="UTF-8">
+	<title>MRI</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<!--fontAwesome-->
+	<script src="https://use.fontawesome.com/8b78626aad.js"></script>
+	
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default b">
+		<div class="header">
+			<img src="images/logo1.png" class="img-responsive logo2" alt="">
+		</div>
+		<div class="s">
+			<ul class="rightNav">
+			<li><img src="images/logPic1.png" alt="" class="logPic"></li>
+			<li><p>Welcome patient 346hft8</p></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 ">
+				<div class="well">
+					<img src="images/front1.png" alt="" class="frontImg1">
+					<a href="front.html" class="btn btn-info">FRONT</a>
+				</div>
+				<div class="well">
+					<img src="images/back1.png" alt="" class="backImg1">
+					<a href="back.html" class="btn btn-danger">BACK</a>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6  avatar">
+				<img src="images/middleBack.png" alt="" class="centerImgB" usemap="#image-map">
+				<map name="image-map">
+                    <area target="_blank" alt="" title="" href="" coords="260,50,30" shape="circle" onmouseover="writeText('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visibleT()" onmouseout="writeText(''), hiddenT()"/>
+                    <area target="_blank" alt="" title="" href="" coords="240,260,30" shape="circle" onmouseover="text('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visibleY()" onmouseout="text(''), hiddenY()" />
+                    <area target="_blank" alt="" title="" href="" coords="180,500,30" shape="circle" onmouseover="text2('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visibleS()" onmouseout="text2(''), hiddenS()"/>  
+                </map>  
+                <div id="des1" style="visibility: hidden;"></div> 
+                <div id="des2" style="visibility: hidden;"></div>
+                <div id="des3" style="visibility: hidden;"></div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 ">
+				<div class="swipeT"></div>
+				<div class="tegetSwipe" style="display: none;">
+					<p>Right Side Swipe Questionnaire</p>
+				</div>
+				<div class="swipeY"></div>
+				<div class="yellowSwipe" style="display: none;">
+					<p>Right Side Swipe Questionnaire</p>
+				</div>
+				<div class="swipeGr"></div>
+				<div class="graySwipe" style="display: none;">
+					<p>Right Side Swipe Questionnaire</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer class="min">
+		<p>Property of MRI Safety Regulator 2016.</p>
+	</footer>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+    $(".swipeT").click(function(){
+        $(".tegetSwipe").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeT").click(function(){
+        $(".swipeT").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".tegetSwipe").click(function(){
+        $(".tegetSwipe").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".tegetSwipe").click(function(){
+        $(".swipeT").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeY").click(function(){
+        $(".yellowSwipe").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeY").click(function(){
+        $(".swipeY").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".yellowSwipe").click(function(){
+        $(".yellowSwipe").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".yellowSwipe").click(function(){
+        $(".swipeY").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeGr").click(function(){
+        $(".graySwipe").show('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".swipeGr").click(function(){
+        $(".swipeGr").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".graySwipe").click(function(){
+        $(".graySwipe").hide('slow');
+    });
+    });
+    $(document).ready(function(){
+    $(".graySwipe").click(function(){
+        $(".swipeGr").show('slow');
+    });
+    });
+    function writeText(txt) {
+        document.getElementById("des1").innerHTML = txt;
+    }
+    function text(txt) {
+        document.getElementById("des2").innerHTML = txt;
+    }
+    function text2(txt) {
+        document.getElementById("des3").innerHTML = txt;
+    }
+    function visibleT() {
+    document.getElementById("des1").style.visibility = "visible";
+    }
+    function hiddenT() {
+        document.getElementById("des1").style.visibility= "hidden";
+    }
+    function visibleY() {
+    document.getElementById("des2").style.visibility = "visible";
+    }
+    function hiddenY() {
+        document.getElementById("des2").style.visibility= "hidden";
+    }
+    function visibleS() {
+    document.getElementById("des3").style.visibility = "visible";
+    }
+    function hiddenS() {
+        document.getElementById("des3").style.visibility= "hidden";
+    }
+    </script>
+</body>
+</html>

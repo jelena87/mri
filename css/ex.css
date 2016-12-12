@@ -1,0 +1,530 @@
+.tree-content {
+	position: relative;
+}
+.first {
+  text-align: center;
+  padding: 15px 0 60px;
+}
+.first img {
+  width: 100%;
+  margin-top: 100px;
+}
+#cameras {
+  left:525px;
+  top:200px;
+  position: absolute;
+  
+  background-size: 70px 70px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: background-size, 0.25s, linear;
+  transition: background-size, 0.25s,linear;
+  z-index: 9999;
+}
+#cameras:hover {
+  background: url("../images/circle.png") no-repeat center;
+  background-size: 70px 70px;
+}
+#ear {
+  left:640px;
+  top:10px;
+  position: absolute;
+  
+  background-size: 70px 70px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: background-size, 0.25s, linear;
+  transition: background-size, 0.25s,linear;
+  z-index: 9999;
+}
+#ear:hover {
+  background: url("../images/circle1.png") no-repeat center;
+  background-size: 70px 70px;
+}
+#power {
+  left:620px;
+  top:250px;
+  position: absolute;
+  
+  background-size: 70px 70px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: background-size, 0.25s, linear;
+  transition: background-size, 0.25s,linear;
+  z-index: 9999;
+}
+#power:hover {
+  background: url("../images/circle2.png") no-repeat center;
+  background-size: 70px 70px;
+}
+#mute {
+  left:600px;
+  top:500px;
+  position: absolute;
+  
+  background-size: 70px 70px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: background-size, 0.25s, linear;
+  transition: background-size, 0.25s,linear;
+  z-index: 9999;
+}
+#mute:hover {
+  background: url("../images/circle4.png") no-repeat center;
+  background-size: 70px 70px;
+}
+#screen {
+  left:670px;
+  top:400px;
+  position: absolute;
+  
+  background-size: 70px 70px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: background-size, 0.25s, linear;
+  transition: background-size, 0.25s,linear;
+  z-index: 9999;
+}
+#screen:hover {
+  background: url("../images/circle3.png") no-repeat center;
+  background-size: 70px 70px;
+}
+.plus-feature > .plus-feature-puls {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #CC3333;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #CC3333;
+  -webkit-animation: pulse 3s  infinite;
+  -moz-animation:    pulse 3s  infinite;
+  -o-animation:      pulse 3s  infinite;
+  animation:         pulse 3s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulse {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #CC3333;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #CC3333;
+  -webkit-animation: pulse 2s  infinite;
+  -moz-animation:    pulse 2s  infinite;
+  -o-animation:      pulse 2s  infinite;
+  animation:         pulse 2s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulsi {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #CC3333;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #CC3333;
+  -webkit-animation: pulse 4s  infinite;
+  -moz-animation:    pulse 4s  infinite;
+  -o-animation:      pulse 4s  infinite;
+  animation:         pulse 4s  infinite;
+  border-image: initial;
+} 
+.plus-feature > .plus-feature-puls1 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #3399CC;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #3399CC;
+  -webkit-animation: pulse 3s  infinite;
+  -moz-animation:    pulse 3s  infinite;
+  -o-animation:      pulse 3s  infinite;
+  animation:         pulse 3s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulse1 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #3399CC;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #3399CC;
+  -webkit-animation: pulse 2s  infinite;
+  -moz-animation:    pulse 2s  infinite;
+  -o-animation:      pulse 2s  infinite;
+  animation:         pulse 2s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulsi1 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #3399CC;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #3399CC;
+  -webkit-animation: pulse 4s  infinite;
+  -moz-animation:    pulse 4s  infinite;
+  -o-animation:      pulse 4s  infinite;
+  animation:         pulse 4s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-puls2 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #66CC66;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #66CC66;
+  -webkit-animation: pulse 3s  infinite;
+  -moz-animation:    pulse 3s  infinite;
+  -o-animation:      pulse 3s  infinite;
+  animation:         pulse 3s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulse2 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #66CC66;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #66CC66;
+  -webkit-animation: pulse 2s  infinite;
+  -moz-animation:    pulse 2s  infinite;
+  -o-animation:      pulse 2s  infinite;
+  animation:         pulse 2s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulsi2 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #66CC66;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #66CC66;
+  -webkit-animation: pulse 4s  infinite;
+  -moz-animation:    pulse 4s  infinite;
+  -o-animation:      pulse 4s  infinite;
+  animation:         pulse 4s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-puls3 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #993399;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #993399;
+  -webkit-animation: pulse 3s  infinite;
+  -moz-animation:    pulse 3s  infinite;
+  -o-animation:      pulse 3s  infinite;
+  animation:         pulse 3s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulse3 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #993399;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #993399;
+  -webkit-animation: pulse 2s  infinite;
+  -moz-animation:    pulse 2s  infinite;
+  -o-animation:      pulse 2s  infinite;
+  animation:         pulse 2s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulsi3 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #993399;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #993399;
+  -webkit-animation: pulse 4s  infinite;
+  -moz-animation:    pulse 4s  infinite;
+  -o-animation:      pulse 4s  infinite;
+  animation:         pulse 4s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-puls4 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #CC6633;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #CC6633;
+  -webkit-animation: pulse 3s  infinite;
+  -moz-animation:    pulse 3s  infinite;
+  -o-animation:      pulse 3s  infinite;
+  animation:         pulse 3s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulse4 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #CC6633;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #CC6633;
+  -webkit-animation: pulse 2s  infinite;
+  -moz-animation:    pulse 2s  infinite;
+  -o-animation:      pulse 2s  infinite;
+  animation:         pulse 2s  infinite;
+  border-image: initial;
+}
+.plus-feature > .plus-feature-pulsi4 {
+  margin: 0 auto;
+  position: absolute;
+  background-color: #CC6633;
+  border-radius: 50%;
+  z-index: 9998;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #CC6633;
+  -webkit-animation: pulse 4s  infinite;
+  -moz-animation:    pulse 4s  infinite;
+  -o-animation:      pulse 4s  infinite;
+  animation:         pulse 4s  infinite;
+  border-image: initial;
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  8% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  15% {
+    -webkit-transform: scale(0.41);
+    transform: scale(0.41);
+    opacity: 0.2;
+  }
+
+  30% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    opacity: 0.5;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+@media only screen and (min-width: 1920px) and (max-width: 2160px) {
+  #ear {
+    left: 490px;
+  }
+  #cameras {
+    left: 375px;
+    top: 170px;
+  }
+  #power {
+    left: 450px;
+    top: 200px;
+  }
+  #screen {
+    left: 500px;
+    top: 300px;
+  }
+  #mute {
+    left: 453px;
+    top: 370px;
+  }
+}
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+  #ear {
+    left: 415px;
+  }
+  #cameras {
+    left: 318px;
+    top: 170px;
+  }
+  #power {
+    left: 392px;
+    top: 200px;
+  }
+  #screen {
+    left: 438px;
+    top: 315px;
+  }
+  #mute {
+    left: 392px;
+    top: 405px;
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+  #ear {
+    left: 415px;
+  }
+  #cameras {
+    left: 318px;
+    top: 140px;
+  }
+  #power {
+    left: 376px;
+    top: 165px;
+  }
+  #screen {
+    left: 415px;
+    top: 265px;
+  }
+  #mute {
+    left: 373px;
+    top: 335px;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
+  #ear {
+    left: 370px;
+  }
+  #cameras {
+    left: 268px;
+    top: 140px;
+  }
+  #power {
+    left: 335px;
+    top: 165px;
+  }
+  #screen {
+    left: 377px;
+    top: 265px;
+  }
+  #mute {
+    left: 335px;
+    top: 335px;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  #ear {
+    left: 345px;
+  }
+  #cameras {
+    left: 268px;
+    top: 118px;
+  }
+  #power {
+    left: 313px;
+    top: 140px;
+  }
+  #screen {
+    left: 344px;
+    top: 228px;
+  }
+  #mute {
+    left: 311px;
+    top: 282px;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  #ear {
+    left: 323px;
+  }
+  #cameras {
+    left: 236px;
+    top: 118px;
+  }
+  #power {
+    left: 294px;
+    top: 140px;
+  }
+  #screen {
+    left: 344px;
+    top: 228px;
+  }
+  #mute {
+    left: 298px;
+    top: 282px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  #ear {
+    left: 258px;
+  }
+  #cameras {
+    left: 180px;
+    top: 118px;
+  }
+  #power {
+    left: 230px;
+    top: 140px;
+  }
+  #screen {
+    left: 265px;
+    top: 228px;
+  }
+  #mute {
+    left: 225px;
+    top: 282px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #ear {
+    left: 278px;
+  }
+  #cameras {
+    left: 163px;
+    top: 164px;
+  }
+  #power {
+    left: 246px;
+    top: 181px;
+  }
+  #screen {
+    left: 287px;
+    top: 288px;
+  }
+  #mute {
+    left: 247px;
+    top: 371px;
+  }
+}
