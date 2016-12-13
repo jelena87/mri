@@ -164,6 +164,11 @@ h4 {
 	word-spacing: 5px;
 	letter-spacing: 5px;
 }
+.log:hover {
+	background-color: #ffffff;
+	color: #ED1C24;
+	border: 1px solid #ED1C24;
+}
 .log1 {
 	font-size: 15px;
 	background-color: #EF4136;
@@ -187,6 +192,11 @@ h4 {
 	font-family: 'Myriad Pro';
 	word-spacing: 5px;
 	letter-spacing: 5px;
+}
+.check:hover {
+	background-color: #ffffff;
+	color: #ED1C24;
+	border: 1px solid #ED1C24;
 }
 hr {
 	border-top: 5px solid #ffffff;
@@ -305,6 +315,11 @@ h3 {
 	padding: 10px 5vw;
 	font-family: 'Myriad Pro';
 	letter-spacing: 2px;
+}
+.sub:hover {
+	background-color: #ffffff;
+	color: #EF4136;
+	border: 1px solid #ED1C24;
 }
 .center4 {
 	margin-top: 6vh;

@@ -14,7 +14,11 @@
   left:525px;
   top:200px;
   position: absolute;
-  
+  -webkit-animation: pulse 2s infinite;
+-moz-animation: pulse 2s infinite;
+-ms-animation: pulse 2s infinite;
+-o-animation: pulse 2s infinite;
+animation: pulse 2s infinite;
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -30,7 +34,11 @@
   left:640px;
   top:10px;
   position: absolute;
-  
+  -webkit-animation: pulse 2s infinite;
+-moz-animation: pulse 2s infinite;
+-ms-animation: pulse 2s infinite;
+-o-animation: pulse 2s infinite;
+animation: pulse 2s infinite;
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -46,7 +54,11 @@
   left:620px;
   top:250px;
   position: absolute;
-  
+  -webkit-animation: pulse 2s infinite;
+-moz-animation: pulse 2s infinite;
+-ms-animation: pulse 2s infinite;
+-o-animation: pulse 2s infinite;
+animation: pulse 2s infinite;
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -54,6 +66,7 @@
   transition: background-size, 0.25s,linear;
   z-index: 9999;
 }
+
 #power:hover {
   background: url("../images/circle2.png") no-repeat center;
   background-size: 70px 70px;
@@ -62,7 +75,11 @@
   left:600px;
   top:500px;
   position: absolute;
-  
+  -webkit-animation: pulse 2s infinite;
+-moz-animation: pulse 2s infinite;
+-ms-animation: pulse 2s infinite;
+-o-animation: pulse 2s infinite;
+animation: pulse 2s infinite;
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -78,7 +95,11 @@
   left:670px;
   top:400px;
   position: absolute;
-  
+  -webkit-animation: pulse 2s infinite;
+-moz-animation: pulse 2s infinite;
+-ms-animation: pulse 2s infinite;
+-o-animation: pulse 2s infinite;
+animation: pulse 2s infinite;
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -94,7 +115,11 @@
   left:640px;
   top:10px;
   position: absolute;
-  
+  -webkit-animation: pulse 2s infinite;
+-moz-animation: pulse 2s infinite;
+-ms-animation: pulse 2s infinite;
+-o-animation: pulse 2s infinite;
+animation: pulse 2s infinite;
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -110,7 +135,11 @@
   left:615px;
   top:400px;
   position: absolute;
-  
+  -webkit-animation: pulse 2s infinite;
+-moz-animation: pulse 2s infinite;
+-ms-animation: pulse 2s infinite;
+-o-animation: pulse 2s infinite;
+animation: pulse 2s infinite;
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -126,7 +155,11 @@
   left:490px;
   top:725px;
   position: absolute;
-  
+  -webkit-animation: pulse 2s infinite;
+-moz-animation: pulse 2s infinite;
+-ms-animation: pulse 2s infinite;
+-o-animation: pulse 2s infinite;
+animation: pulse 2s infinite;
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -378,36 +411,30 @@
   animation:         pulse 4s  infinite;
   border-image: initial;
 }
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); } 
+  50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes pulse {
+    0% { -moz-transform: scale(1); }  
+  50% { -moz-transform: scale(1.1); }
+    100% { -moz-transform: scale(1); }
+}
+@-ms-keyframes pulse {
+    0% { -ms-transform: scale(1); } 
+  50% { -ms-transform: scale(1.1); }
+    100% { -ms-transform: scale(1); }
+}
+@-o-keyframes pulse {
+    0% { -o-transform: scale(1); }  
+  50% { -o-transform: scale(1.1); }
+    100% { -o-transform: scale(1); }
+}
 @keyframes pulse {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  8% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  15% {
-    -webkit-transform: scale(0.41);
-    transform: scale(0.41);
-    opacity: 0.2;
-  }
-
-  30% {
-    -webkit-transform: scale(0.7);
-    transform: scale(0.7);
-    opacity: 0.5;
-  }
-
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(2.5);
-    opacity: 0;
-  }
+    0% { transform: scale(1); } 
+  50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
 }
 @media only screen and (min-width: 1920px) and (max-width: 2160px) {
   #ear {
@@ -438,7 +465,7 @@
   }
   #knee {
     left: 358px;
-    top: 545px;
+    top: 505px;
   }
 }
 @media only screen and (min-width: 1680px) and (max-width: 1919px) {
