@@ -90,6 +90,54 @@
   background: url("../images/circle3.png") no-repeat center;
   background-size: 70px 70px;
 }
+#head{
+  left:640px;
+  top:10px;
+  position: absolute;
+  
+  background-size: 70px 70px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: background-size, 0.25s, linear;
+  transition: background-size, 0.25s,linear;
+  z-index: 9999;
+}
+#head:hover {
+  background: url("../images/circle5.png") no-repeat center;
+  background-size: 70px 70px;
+}
+#back {
+  left:615px;
+  top:400px;
+  position: absolute;
+  
+  background-size: 70px 70px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: background-size, 0.25s, linear;
+  transition: background-size, 0.25s,linear;
+  z-index: 9999;
+}
+#back:hover {
+  background: url("../images/circle6.png") no-repeat center;
+  background-size: 70px 70px;
+}
+#knee {
+  left:490px;
+  top:725px;
+  position: absolute;
+  
+  background-size: 70px 70px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: background-size, 0.25s, linear;
+  transition: background-size, 0.25s,linear;
+  z-index: 9999;
+}
+#knee:hover {
+  background: url("../images/circle7.png") no-repeat center;
+  background-size: 70px 70px;
+}
 .plus-feature > .plus-feature-puls {
   margin: 0 auto;
   position: absolute;
@@ -381,6 +429,17 @@
     left: 453px;
     top: 370px;
   }
+  #head {
+    left: 480px;
+  }
+  #back {
+    left: 455px;
+    top: 275px;
+  }
+  #knee {
+    left: 358px;
+    top: 545px;
+  }
 }
 @media only screen and (min-width: 1680px) and (max-width: 1919px) {
   #ear {
@@ -401,6 +460,17 @@
   #mute {
     left: 392px;
     top: 405px;
+  }
+  #head {
+    left: 410px;
+  }
+  #back {
+    left: 395px;
+    top: 275px;
+  }
+  #knee {
+    left: 295px;
+    top: 545px;
   }
 }
 @media only screen and (min-width: 1600px) and (max-width: 1679px) {
@@ -423,6 +493,17 @@
     left: 373px;
     top: 335px;
   }
+  #head {
+    left: 410px;
+  }
+  #back {
+    left: 374px;
+    top: 245px;
+  }
+  #knee {
+    left: 290px;
+    top: 450px;
+  }
 }
 @media only screen and (min-width: 1440px) and (max-width: 1599px) {
   #ear {
@@ -443,6 +524,17 @@
   #mute {
     left: 335px;
     top: 335px;
+  }
+  #head {
+    left: 370px;
+  }
+  #back {
+    left: 335px;
+    top: 245px;
+  }
+  #knee {
+    left: 255px;
+    top: 450px;
   }
 }
 @media only screen and (min-width: 1366px) and (max-width: 1439px) {
@@ -465,6 +557,17 @@
     left: 311px;
     top: 282px;
   }
+  #head {
+    left: 345px;
+  }
+  #back {
+    left: 317px;
+    top: 195px;
+  }
+  #knee {
+    left: 240px;
+    top: 380px;
+  }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1365px) {
   #ear {
@@ -485,6 +588,17 @@
   #mute {
     left: 298px;
     top: 282px;
+  }
+  #head {
+    left: 315px;
+  }
+  #back {
+    left: 292px;
+    top: 195px;
+  }
+  #knee {
+    left: 240px;
+    top: 395px;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -507,6 +621,17 @@
     left: 225px;
     top: 282px;
   }
+  #head {
+    left: 258px;
+  }
+  #back {
+    left: 230px;
+    top: 195px;
+  }
+  #knee {
+    left: 165px;
+    top: 395px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #ear {
@@ -527,5 +652,16 @@
   #mute {
     left: 247px;
     top: 371px;
+  }
+  #head {
+    left: 258px;
+  }
+  #back {
+    left: 247px;
+    top: 252px;
+  }
+  #knee {
+    left: 165px;
+    top: 510px;
   }
 }

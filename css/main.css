@@ -2473,6 +2473,9 @@ footer p {
 	#desc {
 		right: -155px;
 	}
+	#des1 {
+		right: -150px;
+	}
 }
 @media only screen and (min-width: 300px) and (max-width: 767px) {
 	.navbar-right {
@@ -2507,7 +2510,7 @@ footer p {
 		margin-left: 0;
 	}
 	.box {
-		width: 70px;
+		width: 65px;
 	}
 	.carousel-indicators {
 		margin-left: 0;
@@ -2690,7 +2693,7 @@ footer p {
 	.white2 {
 		width: 200px;
 		right: 50px;
-		bottom: 1000px;
+		bottom: 1030px;
 	}
 	.pacemakers2 {
 		padding-top: 0;
@@ -2915,7 +2918,7 @@ footer p {
 	}
 	#play {
 		left: 37%;
-		bottom: 22.5%;
+		bottom: 23.5%;
 	}
 	.page {
 		font-size: 17px;
@@ -2949,15 +2952,15 @@ footer p {
 		transform: translateY(0);
 	}
 	.box {
-		width: 80px;
+		width: 65px;
 	}
 }
 @media only screen and (min-width: 371px) and (max-width: 380px) {
 	.centerImgF {
-		margin-top: 7px;
+		margin-top: 13px;
 	}
 	.centerImgB {
-		margin-top: 0;
+		margin-top: 13px;
 	}
 	.brand li {
 		padding-right: 35px;
@@ -3252,7 +3255,7 @@ footer p {
 	}
 	#play {
 		left: 37%;
-		bottom: 23%;
+		bottom: 24%;
 	}
 	.r {
 		padding-right: 60px;
