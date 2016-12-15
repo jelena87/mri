@@ -402,6 +402,9 @@ input.search2::-webkit-input-placeholder {
 color: #ffffff !important;
 font-size: 15px;
 }
+input.search2::-moz-placeholder {
+	color: #ffffff;
+}
 .terms li {
 	display: inline-block;
 	margin-right: 10px;
@@ -486,6 +489,7 @@ font-size: 15px;
 	border-radius: 4px;
 	height: 4vh;
 	margin-bottom: 50px;
+	padding-left: 10px;
 }
 input.pace::-webkit-input-placeholder {
 color: #ffffff !important;
@@ -629,6 +633,12 @@ label {
 input.mess::-webkit-input-placeholder {
 	color: #42B7E9;
 	padding: 0 10px;
+}
+input.mess::-moz-placeholder {
+	color: #42B7E9;
+}
+input.mess::-ms-input-placeholder {
+	color: #42B7E9;
 }
 .mess:focus {
 	border: 1px solid #42B7E9;
@@ -1528,6 +1538,9 @@ footer p {
 	.social img {
 		margin-right: 5px;
 	}
+	.arrow1 {
+		width: 25px;
+	}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1650px) {
 	.navbar-right {
@@ -1548,6 +1561,9 @@ footer p {
 	#play {
 		left: 47%;
 		bottom: 21%;
+	}
+	.arrow1 {
+		width: 25px;
 	}
 	.pull-right {
 		padding-top: 5px;
@@ -1694,6 +1710,7 @@ footer p {
 	}
 	.pacemakers p {
 		font-size: 15px;
+		padding-top: 10px;
 	}
 	.pacemakers h6 {
 		font-size: 12px;
@@ -1805,6 +1822,7 @@ footer p {
 		bottom: 26.5%;
 	}
 }
+
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
 	.acc {
 		height: 40px;
@@ -1828,6 +1846,27 @@ footer p {
 	#play {
 		left: 47%;
 		bottom: 21%;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	.center {
+		top: 5vh;
+	}
+	.center2 {
+		top: 6vh;
+	}
+	.caption_1 p {
+		font-size: 13px;
+	}
+	.arrow1 {
+		width: 25px;
+	}
+	.white2 {
+		width: 250px;
 	}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -1951,6 +1990,20 @@ footer p {
 	.input-group {
 		margin-right: 50px;
 	}
+}
+@media only screen and (min-width: 1501px) and (max-width: 1550px) {
+	.middle {
+		transform: translateY(0);
+	}
+	.dash1 {
+		padding: 5px;
+	}
+	.tri img {
+		margin: 15px 0;
+	}
+	.arrow1 {
+		width: 25px;
+	} 
 }
 @media only screen and (min-width: 1651px) and (max-width: 1920px) {
 	#play {
@@ -2491,6 +2544,9 @@ footer p {
 	#des1 {
 		right: -150px;
 	}
+	.arrow1 {
+		width: 25px;
+	}
 }
 @media only screen and (min-width: 300px) and (max-width: 767px) {
 	.navbar-right {
@@ -2969,6 +3025,9 @@ footer p {
 	.box {
 		width: 65px;
 	}
+	.mri1 {
+		display: none;
+	}
 }
 @media only screen and (min-width: 371px) and (max-width: 380px) {
 	.centerImgF {
@@ -3043,13 +3102,13 @@ footer p {
 		transform: translateY(25%);
 	}
 	.caption {
-		margin-bottom: 20vh;
+		margin-bottom: 0;
 	}
 	.caption_1 h3 {
-		font-size: 35px;
+		font-size: 25px;
 	}
 	.caption_1 p {
-		font-size: 15px;
+		font-size: 10px;
 		padding-top: 15px;
 	}
 	.mri {
@@ -3057,6 +3116,12 @@ footer p {
 	}
 	.tri h4 {
 		font-size: 15px;
+	}
+	.tri img {
+		display: none;
+	}
+	.mri1 {
+		display: none;
 	}
 	.r {
 		padding-right: 17vw;
@@ -3073,9 +3138,12 @@ footer p {
 		left: 41%;
 		bottom: 21.5%;
 	}
+	.pic {
+		width: 5%;
+	}
 }
 
-@media only screen and (max-height: 630px) {
+@media only screen and (max-height: 700px) {
 	.logo2 {
 		width: 140px;
 	}
@@ -3098,6 +3166,9 @@ footer p {
 		width: 100px;
 	}
 	.rightNav p {
+		font-size: 10px;
+	}
+	.caption_1 p {
 		font-size: 10px;
 	}
 	.dash1 p {
@@ -3147,6 +3218,7 @@ footer p {
 	}
 	.mri1 {
 		width: 70px;
+		margin: 10px 0;
 	}
 	.login1 {
 		padding: 10px;
@@ -3160,7 +3232,18 @@ footer p {
 	}
 	#play {
 		left: 46%;
-		bottom: 22%;
+		bottom: 24%;
+	}
+	.login {
+		padding: 10px;
+	}
+	.acc {
+		height: 30px;
+	}
+	.logAcc {
+		height: 35px;
+		margin-top: 42px;
+		padding: 7px 50px;
 	}
 }
 @media only screen and (min-width: 300px) and (max-width: 359px) {
