@@ -1,4 +1,4 @@
-
+  
 <!DOCTYPE html>
 <html lang="en" id="fix">
 <head>
@@ -56,8 +56,6 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6  avatar">
 				<img src="images/middleFront.png" alt="" class="centerImgF" usemap="#image-map" >
-                
-                   
                     <div class="plus-feature" id="ear" onmouseover="writeText('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visible()" onmouseout="writeText(''), hiddenDiv()"></div>
                     
                     <div class="plus-feature" id="cameras" onmouseover="text('Patient with MR Conditional devices receive diagnostic benefits of MRI witout question. That way we are ensuring the path for patient safety.'), visibleR()" onmouseout="text(''), hiddenR()"></div>
@@ -106,105 +104,30 @@
 	
 	<script type="text/javascript">
 	$(document).ready(function(){
-    $(".swipeB").click(function(){
-        $(".blueSwipe").show('slow');
+    $("#ear").hover(function(){
+        $(".blueSwipe").toggle('slow');
     });
     });
     $(document).ready(function(){
-    $(".swipeB").click(function(){
-        $(".swipeB").hide('slow');
+    $("#cameras").hover(function(){
+        $(".redSwipe").toggle('slow');
     });
     });
     $(document).ready(function(){
-    $(".blueSwipe").click(function(){
-        $(".blueSwipe").hide('slow');
+    $("#power").hover(function(){
+        $(".greenSwipe").toggle('slow');
     });
     });
     $(document).ready(function(){
-    $(".blueSwipe").click(function(){
-        $(".swipeB").show('slow');
+    $("#screen").hover(function(){
+        $(".purpleSwipe").toggle('slow');
     });
     });
     $(document).ready(function(){
-    $(".swipeR").click(function(){
-        $(".redSwipe").show('slow');
+    $("#mute").hover(function(){
+        $(".orangeSwipe").toggle('slow');
     });
     });
-    $(document).ready(function(){
-    $(".swipeR").click(function(){
-        $(".swipeR").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".redSwipe").click(function(){
-        $(".redSwipe").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".redSwipe").click(function(){
-        $(".swipeR").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeG").click(function(){
-        $(".greenSwipe").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeG").click(function(){
-        $(".swipeG").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".greenSwipe").click(function(){
-        $(".greenSwipe").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".greenSwipe").click(function(){
-        $(".swipeG").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeP").click(function(){
-        $(".purpleSwipe").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeP").click(function(){
-        $(".swipeP").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".purpleSwipe").click(function(){
-        $(".purpleSwipe").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".purpleSwipe").click(function(){
-        $(".swipeP").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeO").click(function(){
-        $(".orangeSwipe").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeO").click(function(){
-        $(".swipeO").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".orangeSwipe").click(function(){
-        $(".orangeSwipe").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".orangeSwipe").click(function(){
-        $(".swipeO").show('slow');
-    });
-    }); 
 
     function writeText(txt) {
         document.getElementById("desc").innerHTML = txt;

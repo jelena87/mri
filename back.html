@@ -91,63 +91,18 @@
 
 	<script type="text/javascript">
 	$(document).ready(function(){
-    $(".swipeT").click(function(){
-        $(".tegetSwipe").show('slow');
+    $("#head").hover(function(){
+        $(".tegetSwipe").toggle('slow');
     });
     });
     $(document).ready(function(){
-    $(".swipeT").click(function(){
-        $(".swipeT").hide('slow');
+    $("#back").hover(function(){
+        $(".yellowSwipe").toggle('slow');
     });
     });
     $(document).ready(function(){
-    $(".tegetSwipe").click(function(){
-        $(".tegetSwipe").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".tegetSwipe").click(function(){
-        $(".swipeT").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeY").click(function(){
-        $(".yellowSwipe").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeY").click(function(){
-        $(".swipeY").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".yellowSwipe").click(function(){
-        $(".yellowSwipe").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".yellowSwipe").click(function(){
-        $(".swipeY").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeGr").click(function(){
-        $(".graySwipe").show('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".swipeGr").click(function(){
-        $(".swipeGr").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".graySwipe").click(function(){
-        $(".graySwipe").hide('slow');
-    });
-    });
-    $(document).ready(function(){
-    $(".graySwipe").click(function(){
-        $(".swipeGr").show('slow');
+    $("#knee").hover(function(){
+        $(".graySwipe").toggle('slow');
     });
     });
     function writeText(txt) {

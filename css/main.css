@@ -176,10 +176,12 @@ h4 {
 	border: 1px solid #EF4136;
 	border-radius: 20px;
 	margin-top: 3vh;
-	padding-bottom: 30px;
+	height: 40px;
 	font-family: 'Myriad Pro';
 	word-spacing: 5px;
 	letter-spacing: 5px;
+	width: 60%;
+	margin: auto;
 }
 .check {
 	font-size: 15px;
@@ -417,6 +419,7 @@ input.search2::-moz-placeholder {
 }
 .rights {
 	text-align: center;
+	font-family: 'Proxima Nova Cn Lt';
 }
 .padLeft {
 	padding-left: 5vw;
@@ -465,6 +468,7 @@ input.search2::-moz-placeholder {
 }
 .caption_1 p {
 	font-family: 'SFNS Text';
+	text-shadow: none;
 }
 .caption_1 h3 {
 	padding-bottom: 5px;
@@ -607,9 +611,6 @@ li.pull-right.black {
 	display: inline;
 	padding-right: 2vw;
 }
-/*.arrow1 {
-	width: 7px;
-} */
 .space {
 	padding-left: 14vw;
 }
@@ -704,15 +705,15 @@ textarea.form-control {
 .w2 {
 	color: #ffffff;
 	font-size: 20px;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 0;
 	font-family: 'Raleway';
 }
 .w1 {
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 21px;
 	margin-top: 10px;
-	margin-bottom: 0;
+	margin-bottom: 30px;
 	font-family: 'Source Sans Pro';
 }
 .middle1 {
@@ -721,6 +722,8 @@ textarea.form-control {
 }
 .login1 {
 	background-color: #ffffff;
+	width: 60%;
+	margin: auto;
 	padding: 50px;
 	border: 1px solid #ffffff;
 	border-radius: 20px;
@@ -734,6 +737,7 @@ textarea.form-control {
 	color: #999999;
 	padding-top: 25px;
 	font-family: 'Raleway';
+	font-size: 15px;
 }
 .inside span {
 	font-weight: bold;
@@ -771,6 +775,7 @@ textarea.form-control {
 .logo2 {
 	margin-top: 25px;
 	margin-left: 150px;
+	width: 250px;
 }
 footer {
 	height: 10vh;
@@ -1027,7 +1032,7 @@ footer p {
 .red img,
 .grey img,
 .blu img {
-	margin: 50px 0;
+	margin: 30px 0;
 }
 
 .min {
@@ -1064,10 +1069,12 @@ footer p {
 }
 .middle {
 	text-align: center;
-	transform: translateY(30%);
+	transform: translateY(25%);
 }
 .login {
 	background-color: #ffffff;
+	width: 80%;
+	margin: auto;
 	padding: 40px;
 	border: 1px solid #ffffff;
 	border-radius: 20px;
@@ -1118,6 +1125,17 @@ footer p {
 	color: #ffffff;
 	position: absolute;
 	right: 0;
+}
+.blueSwipe p,
+.redSwipe p, 
+.purpleSwipe p,
+.greenSwipe p,
+.orangeSwipe p,
+.tegetSwipe p,
+.yellowSwipe p,
+.graySwipe p {
+	padding-left: 20px;
+	padding-top: 20px;
 }
 .swipeB {
 	width: 30px;
@@ -1267,10 +1285,10 @@ footer p {
 	position: absolute;
 	top: 100px;
 	right: 0;
-	width: 150px;
+	width: 160px;
 	background-color: #333366;
 	font-size: 12px;
-	padding: 15px;
+	padding: 20px;
 	border: 1px solid #333366;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1280,10 +1298,10 @@ footer p {
 	position: absolute;
 	top: 150px;
 	left: 0;
-	width: 150px;
+	width: 160px;
 	background-color: #FF9933;
 	font-size: 12px;
-	padding: 15px;
+	padding: 20px;
 	border: 1px solid #FF9933;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1293,10 +1311,10 @@ footer p {
 	position: absolute;
 	top: 400px;
 	left: 0;
-	width: 150px;
+	width: 160px;
 	background-color: #999999;
 	font-size: 12px;
-	padding: 15px;
+	padding: 20px;
 	border: 1px solid #999999;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1306,10 +1324,10 @@ footer p {
 	position: absolute;
 	top: 100px;
 	right: 0;
-	width: 150px;
+	width: 160px;
 	background-color: #3399CC;
 	font-size: 12px;
-	padding: 15px;
+	padding: 20px;
 	border: 1px solid #3399CC;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1319,10 +1337,10 @@ footer p {
 	position: absolute;
 	top: 100px;
 	left: 0;
-	width: 150px;
+	width: 160px;
 	background-color: #CC3333;
 	font-size: 12px;
-	padding: 15px;
+	padding: 20px;
 	border: 1px solid #CC3333;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1332,10 +1350,10 @@ footer p {
 	position: absolute;
 	top: 300px;
 	left: 0;
-	width: 150px;
+	width: 160px;
 	background-color: #66CC66;
 	font-size: 12px;
-	padding: 15px;
+	padding: 20px;
 	border: 1px solid #66CC66;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1345,10 +1363,10 @@ footer p {
 	position: absolute;
 	top: 400px;
 	right: 0;
-	width: 150px;
+	width: 160px;
 	background-color: #CC6633;
 	font-size: 12px;
-	padding: 15px;
+	padding: 20px;
 	border: 1px solid #CC6633;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1358,10 +1376,10 @@ footer p {
 	position: absolute;
 	top: 500px;
 	left: 0;
-	width: 150px;
+	width: 160px;
 	background-color: #993399;
 	font-size: 12px;
-	padding: 15px;
+	padding: 20px;
 	border: 1px solid #993399;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1398,7 +1416,9 @@ footer p {
 	h1 {
 		font-size: 64px;
 	}
-	
+	.login1 {
+		width: 80%;
+	}
 	h3 {
 		font-size: 50px;
 		padding-bottom: 0;
@@ -1561,6 +1581,9 @@ footer p {
 	#play {
 		left: 47%;
 		bottom: 21%;
+	}
+	.login1 {
+		width: 100%;
 	}
 	.arrow1 {
 		width: 25px;
@@ -1823,6 +1846,16 @@ footer p {
 		left: 46%;
 		bottom: 26.5%;
 	}
+	.blueSwipe p,
+.redSwipe p, 
+.purpleSwipe p,
+.greenSwipe p,
+.orangeSwipe p,
+.tegetSwipe p,
+.yellowSwipe p,
+.graySwipe p {
+	font-size: 12px;
+}
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -1883,6 +1916,9 @@ footer p {
         }
         .navbar-header {
           float:none;
+    	}
+    	.login {
+    		width: 100%;
     	}
 	.carousel-caption {
 		transform: translateX(18%);
@@ -2032,12 +2068,28 @@ footer p {
     	.carousel-caption {
 		transform: translateX(18%);
 	}
+	.login1 {
+		width: 100%;
+	}
+	.login {
+		width: 100%;
+	}
 	.social {
 		text-align: left;
 	}
 	.mid {
 		transform: translateX(-25%);
 	}
+	.blueSwipe p,
+.redSwipe p, 
+.purpleSwipe p,
+.greenSwipe p,
+.orangeSwipe p,
+.tegetSwipe p,
+.yellowSwipe p,
+.graySwipe p {
+	font-size: 11px;
+}
 	.white {
 		bottom: 950px;
 	}
@@ -2262,7 +2314,22 @@ footer p {
         .navbar-header {
           float:none;
     	} 
-	
+    	.login1 {
+		width: 100%;
+	}
+	.login {
+		width: 100%;
+	}
+	.blueSwipe p,
+.redSwipe p, 
+.purpleSwipe p,
+.greenSwipe p,
+.orangeSwipe p,
+.tegetSwipe p,
+.yellowSwipe p,
+.graySwipe p {
+	font-size: 11px;
+}
 	.white {
 		bottom: 950px;
 	}
@@ -2392,7 +2459,7 @@ footer p {
 	margin-left: 0;
 	}
 	.middle {
-		transform: translateY(5%);
+		transform: translateY(0);
 	}
 	.middle1 {
 		transform: translateY(20%);
@@ -2555,6 +2622,16 @@ footer p {
 	/*	width: 25%; */
 		margin: auto;
 	}
+	.login1 {
+		width: 100%;
+	}
+	.login {
+		width: 100%;
+	}
+	.log1 {
+		height: 25px;
+		padding: 0;
+	}
 	.nav>li.small {
 		display: inline-block;
 	}
@@ -2565,6 +2642,10 @@ footer p {
 	.hole input[type="password"] {
     	font-size:15px;
     	text-align: center;
+    	height: 25px;
+	}
+	.w1 {
+		margin-bottom: 0;
 	}
 	.white {
 		bottom: 1050px;
@@ -3031,40 +3112,7 @@ footer p {
 		display: none;
 	}
 }
-@media only screen and (min-width: 371px) and (max-width: 380px) {
-	.centerImgF {
-		margin-top: 13px;
-	}
-	.centerImgB {
-		margin-top: 13px;
-	}
-	.brand li {
-		padding-right: 35px;
-	}
-	.center p,
-	.center2 p {
-		font-size: 13px;
-	}
-	.caption_1 {
-		margin-bottom: 0;
-	}
-	.caption_1 p {
-		font-size: 11px;
-	}
-	
-	.middle {
-		transform: translateY(0);
-	}
-	.middle1 {
-		transform: translateY(5%);
-	}
-	.over {
-		bottom: 12vh;
-	}
-	li.pull-right.black {
-		padding-right: 37px;
-	}
-}
+
 @media only screen and (min-width: 381px) and (max-width: 420px) {
 	
 	.brand li {
@@ -3248,6 +3296,48 @@ footer p {
 		padding: 7px 50px;
 	}
 }
+@media only screen and (min-width: 371px) and (max-width: 380px) {
+	.centerImgF {
+		margin-top: 13px;
+	}
+	.centerImgB {
+		margin-top: 13px;
+	}
+	.brand li {
+		padding-right: 35px;
+	}
+	.center p,
+	.center2 p {
+		font-size: 13px;
+	}
+	.caption_1 {
+		margin-bottom: 0;
+	}
+	.caption_1 p {
+		font-size: 11px;
+	}
+	
+	.middle {
+		transform: translateY(0);
+	}
+	.middle1 {
+		transform: translateY(5%);
+	}
+	.over {
+		bottom: 12vh;
+	}
+	li.pull-right.black {
+		padding-right: 37px;
+	}
+	.logAcc {
+		margin-top: 10px;
+		height: 25px;
+		padding: 0;
+	}
+	.w2 {
+		margin-top: 10px;
+	}
+}
 @media only screen and (min-width: 300px) and (max-width: 359px) {
 	h3 {
 		font-size: 20px;
@@ -3326,8 +3416,22 @@ footer p {
 	.user {
 		height: 35px;
 	}
+	.hole input[type="text"], .hole input[type="password"]
+	 {
+		height: 18px;
+	}
+	.log1 {
+		height: 25px;
+		padding: 0;
+	}
 	.logAcc {
+		margin-top: 10px;
+		height: 25px;
+		padding: 0;
 		margin-bottom: 0;
+	}
+	.w2 {
+		margin-top: 10px;
 	}
 	.brand li {
 		padding-right: 10px;

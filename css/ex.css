@@ -19,19 +19,17 @@
 -ms-animation: pulse 2s infinite;
 -o-animation: pulse 2s infinite;
 animation: pulse 2s infinite;
-  background-size: 70px 70px;
+ 
+  background: url("../images/circle.png") no-repeat center;
+   background-size: 60px 60px;
   width: 70px;
   height: 70px;
   -webkit-transition: background-size, 0.25s, linear;
   transition: background-size, 0.25s,linear;
   z-index: 9999;
 }
-#cameras:hover {
-  background: url("../images/circle.png") no-repeat center;
-  background-size: 70px 70px;
-}
 #ear {
-  left:640px;
+  left:650px;
   top:10px;
   position: absolute;
   -webkit-animation: pulse 2s infinite;
@@ -39,77 +37,64 @@ animation: pulse 2s infinite;
 -ms-animation: pulse 2s infinite;
 -o-animation: pulse 2s infinite;
 animation: pulse 2s infinite;
-  background-size: 70px 70px;
+background: url("../images/circle1.png") no-repeat center;
+  background-size: 60px 60px;
   width: 70px;
   height: 70px;
   -webkit-transition: background-size, 0.25s, linear;
   transition: background-size, 0.25s,linear;
   z-index: 9999;
-}
-#ear:hover {
-  background: url("../images/circle1.png") no-repeat center;
-  background-size: 70px 70px;
 }
 #power {
-  left:620px;
-  top:250px;
+  left:615px;
+  top:230px;
   position: absolute;
   -webkit-animation: pulse 2s infinite;
 -moz-animation: pulse 2s infinite;
 -ms-animation: pulse 2s infinite;
 -o-animation: pulse 2s infinite;
 animation: pulse 2s infinite;
-  background-size: 70px 70px;
+ background: url("../images/circle2.png") no-repeat center;
+  background-size: 60px 60px;
   width: 70px;
   height: 70px;
   -webkit-transition: background-size, 0.25s, linear;
   transition: background-size, 0.25s,linear;
   z-index: 9999;
-}
-
-#power:hover {
-  background: url("../images/circle2.png") no-repeat center;
-  background-size: 70px 70px;
 }
 #mute {
-  left:600px;
-  top:500px;
+  left:590px;
+  top:460px;
   position: absolute;
   -webkit-animation: pulse 2s infinite;
 -moz-animation: pulse 2s infinite;
 -ms-animation: pulse 2s infinite;
 -o-animation: pulse 2s infinite;
 animation: pulse 2s infinite;
-  background-size: 70px 70px;
+background: url("../images/circle4.png") no-repeat center;
+  background-size: 60px 60px;
   width: 70px;
   height: 70px;
   -webkit-transition: background-size, 0.25s, linear;
   transition: background-size, 0.25s,linear;
   z-index: 9999;
-}
-#mute:hover {
-  background: url("../images/circle4.png") no-repeat center;
-  background-size: 70px 70px;
 }
 #screen {
   left:670px;
-  top:400px;
+  top:380px;
   position: absolute;
   -webkit-animation: pulse 2s infinite;
 -moz-animation: pulse 2s infinite;
 -ms-animation: pulse 2s infinite;
 -o-animation: pulse 2s infinite;
 animation: pulse 2s infinite;
-  background-size: 70px 70px;
+background: url("../images/circle3.png") no-repeat center;
+  background-size: 60px 60px;
   width: 70px;
   height: 70px;
   -webkit-transition: background-size, 0.25s, linear;
   transition: background-size, 0.25s,linear;
   z-index: 9999;
-}
-#screen:hover {
-  background: url("../images/circle3.png") no-repeat center;
-  background-size: 70px 70px;
 }
 #head{
   left:640px;
@@ -120,56 +105,47 @@ animation: pulse 2s infinite;
 -ms-animation: pulse 2s infinite;
 -o-animation: pulse 2s infinite;
 animation: pulse 2s infinite;
-  background-size: 70px 70px;
+background: url("../images/circle5.png") no-repeat center;
+  background-size: 60px 60px;
   width: 70px;
   height: 70px;
   -webkit-transition: background-size, 0.25s, linear;
   transition: background-size, 0.25s,linear;
   z-index: 9999;
-}
-#head:hover {
-  background: url("../images/circle5.png") no-repeat center;
-  background-size: 70px 70px;
 }
 #back {
   left:615px;
-  top:400px;
+  top:340px;
   position: absolute;
   -webkit-animation: pulse 2s infinite;
 -moz-animation: pulse 2s infinite;
 -ms-animation: pulse 2s infinite;
 -o-animation: pulse 2s infinite;
 animation: pulse 2s infinite;
-  background-size: 70px 70px;
+background: url("../images/circle6.png") no-repeat center;
+  background-size: 60px 60px;
   width: 70px;
   height: 70px;
   -webkit-transition: background-size, 0.25s, linear;
   transition: background-size, 0.25s,linear;
   z-index: 9999;
-}
-#back:hover {
-  background: url("../images/circle6.png") no-repeat center;
-  background-size: 70px 70px;
 }
 #knee {
-  left:490px;
-  top:725px;
+  left:500px;
+  top:640px;
   position: absolute;
   -webkit-animation: pulse 2s infinite;
 -moz-animation: pulse 2s infinite;
 -ms-animation: pulse 2s infinite;
 -o-animation: pulse 2s infinite;
 animation: pulse 2s infinite;
-  background-size: 70px 70px;
+background: url("../images/circle7.png") no-repeat center;
+  background-size: 60px 60px;
   width: 70px;
   height: 70px;
   -webkit-transition: background-size, 0.25s, linear;
   transition: background-size, 0.25s,linear;
   z-index: 9999;
-}
-#knee:hover {
-  background: url("../images/circle7.png") no-repeat center;
-  background-size: 70px 70px;
 }
 .plus-feature > .plus-feature-puls {
   margin: 0 auto;
@@ -453,8 +429,8 @@ animation: pulse 2s infinite;
     top: 300px;
   }
   #mute {
-    left: 453px;
-    top: 370px;
+    left: 440px;
+    top: 395px;
   }
   #head {
     left: 480px;
@@ -465,7 +441,7 @@ animation: pulse 2s infinite;
   }
   #knee {
     left: 358px;
-    top: 505px;
+    top: 540px;
   }
 }
 @media only screen and (min-width: 1680px) and (max-width: 1919px) {
@@ -485,8 +461,8 @@ animation: pulse 2s infinite;
     top: 315px;
   }
   #mute {
-    left: 392px;
-    top: 405px;
+    left: 375px;
+    top: 390px;
   }
   #head {
     left: 410px;
@@ -502,7 +478,7 @@ animation: pulse 2s infinite;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1679px) {
   #ear {
-    left: 415px;
+    left: 405px;
   }
   #cameras {
     left: 318px;
@@ -517,15 +493,15 @@ animation: pulse 2s infinite;
     top: 265px;
   }
   #mute {
-    left: 373px;
+    left: 355px;
     top: 335px;
   }
   #head {
-    left: 410px;
+    left: 395px;
   }
   #back {
     left: 374px;
-    top: 245px;
+    top: 230px;
   }
   #knee {
     left: 290px;
@@ -537,20 +513,20 @@ animation: pulse 2s infinite;
     left: 390px;
   }
   #cameras {
-    left: 285px;
-    top: 115px;
+    left: 295px;
+    top: 135px;
   }
   #power {
     left: 356px;
-    top: 135px;
+    top: 155px;
   }
   #screen {
     left: 390px;
-    top: 210px;
+    top: 245px;
   }
   #mute {
-    left: 355px;
-    top: 275px;
+    left: 340px;
+    top: 315px;
   }
   #head {
     left: 370px;
@@ -581,7 +557,7 @@ animation: pulse 2s infinite;
     top: 265px;
   }
   #mute {
-    left: 335px;
+    left: 315px;
     top: 335px;
   }
   #head {
@@ -633,20 +609,20 @@ animation: pulse 2s infinite;
     left: 323px;
   }
   #cameras {
-    left: 236px;
-    top: 118px;
+    left: 240px;
+    top: 120px;
   }
   #power {
     left: 294px;
-    top: 140px;
+    top: 145px;
   }
   #screen {
-    left: 344px;
-    top: 228px;
+    left: 325px;
+    top: 230px;
   }
   #mute {
-    left: 298px;
-    top: 282px;
+    left: 275px;
+    top: 290px;
   }
   #head {
     left: 315px;
@@ -656,7 +632,7 @@ animation: pulse 2s infinite;
     top: 195px;
   }
   #knee {
-    left: 240px;
+    left: 220px;
     top: 395px;
   }
 }
