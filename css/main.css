@@ -142,7 +142,7 @@ input.form-control {
 	margin-bottom: 10vh;
 }
 h1 {
-	font-size: 80px;
+	font-size: 70px;
 	font-family: 'SFNS Text';
 	text-shadow: none;
 }
@@ -261,7 +261,7 @@ h3 {
 }
 .forth {
 	height: 80vh;
-	background: url(../images/doc.png);
+	background: url(../images/mri3.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	width: 90%;
@@ -923,13 +923,13 @@ footer p {
 	width: 150px;
 }
 .caption3 h4 {
-	font-size: 20px;
+	font-size: 18px;
 	text-align: left;
 	padding-bottom: 20px;
 	font-family: 'SFNS Text';
 }
 .caption3 {
-	margin-bottom: 7vh;
+	margin-bottom: 5vh;
 }
 .dash p {
 	font-size: 20px;
@@ -985,7 +985,7 @@ footer p {
 .blu h4 {
 	width: 90%;
 	margin: auto;
-	font-size: 20px;
+	font-size: 18px;
 	color: #ffffff;
 	text-align: left;
 	padding-bottom: 3vh;
@@ -1027,7 +1027,7 @@ footer p {
 .grey h1,
 .blu h1 {
 	color: #ffffff;
-	padding-top: 8vh;
+	padding-top: 5vh;
 	padding-bottom: 20px;
 	font-family: 'SFNS Display';
 }
@@ -2749,6 +2749,9 @@ footer p {
 	.login1 {
 		width: 100%;
 	}
+	footer p {
+		font-size: 12px;
+	}
 	#desc, 
 	#desc5,
 	#desc2,
@@ -2771,6 +2774,17 @@ footer p {
 	#back,
 	#knee {
 		background-size: 40px 40px;
+	}
+	.blueSwipe,
+	.redSwipe,
+	.greenSwipe,
+	.purpleSwipe,
+	.orangeSwipe,
+	.tegetSwipe,
+	.yellowSwipe,
+	.graySwipe {
+		width: 40vw;
+		font-size: 12px;
 	}
 	.login {
 		width: 100%;
@@ -2866,6 +2880,8 @@ footer p {
 	.center p {
 		font-size: 14px;
 		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.log {
 		font-size: 10px;
@@ -2884,6 +2900,8 @@ footer p {
 	.center2 p {
 		font-size: 14px;
 		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.pic {
 		margin-top: 10px;
@@ -3611,6 +3629,9 @@ footer p {
 	.center2 p {
 		font-size: 10px;
 	}
+	.middle h3 {
+		margin-top: 2px;
+	}
 	.check {
 		margin-top: 0;
 	}
@@ -3671,7 +3692,14 @@ footer p {
 		margin-top: 38px;
 		margin-bottom: 15px;
 	}
-.blueSwipe p, .redSwipe p, .purpleSwipe p, .greenSwipe p, .orangeSwipe p, .tegetSwipe p, .yellowSwipe p, .graySwipe p {
+.blueSwipe p, 
+.redSwipe p, 
+.purpleSwipe p, 
+.greenSwipe p, 
+.orangeSwipe p, 
+.tegetSwipe p, 
+.yellowSwipe p, 
+.graySwipe p {
 	font-size: 10px;
 }
 	#desc,
