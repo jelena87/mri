@@ -700,6 +700,108 @@ background: url("../images/circle7.png") no-repeat center;
     top: 470px;
   }
 }
+@media only screen and (min-width: 651px) and (max-width: 767px) {
+     #ear {
+    left: 230px;
+    top: -20px;
+  }
+  #cameras {
+    left: 144px;
+    top: 108px;
+  }
+  #power {
+    left: 203px;
+    top: 127px;
+  }
+  #screen {
+    left: 243px;
+    top: 231px;
+  }
+  #mute {
+    left: 193px;
+    top: 287px;
+  }
+  #head {
+    left: 230px;
+    top: -17px;
+  }
+  #back {
+    left: 216px;
+    top: 203px;
+  }
+  #knee {
+    left: 137px;
+    top: 418px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 650px) {
+    #ear {
+    left: 230px;
+    top: -20px;
+  }
+  #cameras {
+    left: 144px;
+    top: 108px;
+  }
+  #power {
+    left: 203px;
+    top: 127px;
+  }
+  #screen {
+    left: 243px;
+    top: 231px;
+  }
+  #mute {
+    left: 193px;
+    top: 287px;
+  }
+  #head {
+    left: 230px;
+    top: -17px;
+  }
+  #back {
+    left: 216px;
+    top: 203px;
+  }
+  #knee {
+    left: 137px;
+    top: 418px;
+  }
+}
+@media only screen and (min-width: 421px) and (max-width: 599px) {
+    #ear {
+    left: 210px;
+    top: -5px;
+  }
+  #cameras {
+    left: 140px;
+    top: 90px;
+  }
+  #power {
+    left: 185px;
+    top: 105px;
+  }
+  #mute {
+    left: 175px;
+    top: 208px;
+  }
+  #screen {
+    left: 225px;
+    top: 182px;
+  }
+  #head {
+    left: 205px;
+    top: -10px;
+  }
+  #back {
+    left: 190px;
+    top: 150px;
+  }
+  #knee {
+    left: 130px;
+    top: 315px;
+  }
+}
 @media only screen and (min-width: 370px) and (max-width: 420px) {
     #ear {
     left: 210px;
@@ -835,39 +937,5 @@ background: url("../images/circle7.png") no-repeat center;
   #knee {
     left: 108px;
     top: 310px;
-  }
-}
-@media only screen and (min-width: 600px) and (max-width: 650px) {
-    #ear {
-    left: 230px;
-    top: -20px;
-  }
-  #cameras {
-    left: 144px;
-    top: 108px;
-  }
-  #power {
-    left: 203px;
-    top: 127px;
-  }
-  #screen {
-    left: 243px;
-    top: 231px;
-  }
-  #mute {
-    left: 193px;
-    top: 287px;
-  }
-  #head {
-    left: 230px;
-    top: -17px;
-  }
-  #back {
-    left: 216px;
-    top: 203px;
-  }
-  #knee {
-    left: 137px;
-    top: 418px;
   }
 }

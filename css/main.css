@@ -3238,7 +3238,25 @@ footer p {
 		padding-top: 3px;
 	}
 }
-
+@media only screen and (min-width: 651px) and (max-width: 767px) {
+	.mob {
+		display: inline-block;
+	}
+	.centerImgF,
+	.centerImgB {
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (min-width: 421px) and (max-width: 599px) {
+	.centerImgF {
+		margin-bottom: 20px;
+		display: block
+	}
+	.min1 p {
+		font-size: 12px;
+	}
+}
 @media only screen and (min-width: 360px) and (max-width: 370px) {
 	.centerImgF {
 		margin-bottom: 12px;
