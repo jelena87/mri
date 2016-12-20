@@ -151,6 +151,7 @@ h4 {
 	padding-top: 2vh;
 	font-family: 'Source Sans Pro';
 	text-shadow: none;
+	line-height: 1.5em;
 }
 .log {
 	font-size: 15px;
@@ -256,6 +257,7 @@ h3 {
 	padding-top: 50px;
 	color: #ffffff;
 	font-size: 18px;
+	text-align: justify;
 }
 .forth {
 	height: 80vh;
@@ -273,6 +275,7 @@ h3 {
 	padding-top: 50px;
 	color: #ffffff;
 	font-size: 18px;
+	text-align: justify;
 }
 .fifth {
 	height: 40vh;
@@ -378,7 +381,7 @@ iframe {
 }
 .footer li {
 	font-family: 'Source Sans Pro Light';
-	font-size: 15px;
+	font-size: 18px;
 	padding-bottom: 5px;
 }
 .social {
@@ -450,7 +453,7 @@ input.search2::-moz-placeholder {
 	padding-bottom: 50px;
 	font-family: 'Source Sans Pro';
 	color: #808284;
-	font-size: 35px;
+	font-size: 25px;
 }
 .carousel_1  > .item > img,
 .carousel_1 > .item > a > img {
@@ -463,7 +466,7 @@ input.search2::-moz-placeholder {
 }
 .caption_1 {
 	text-align: left;
-	font-size: 25px;
+	font-size: 22px;
 	margin-bottom: 5vh;
 }
 .caption_1 p {
@@ -494,6 +497,12 @@ input.search2::-moz-placeholder {
 	height: 4vh;
 	margin-bottom: 50px;
 	padding-left: 10px;
+}
+.pace:focus {
+	border: none;
+	background: #ffffff;
+	color: #8E8E8E;
+	box-shadow: none;
 }
 input.pace::-webkit-input-placeholder {
 color: #ffffff !important;
@@ -670,7 +679,7 @@ textarea.form-control {
 }
 #Map {
     width: 100%;
-    height: 80vh;
+    height: 60vh;
   }
   .white2 {
   	position: absolute;
@@ -728,7 +737,7 @@ textarea.form-control {
 	border: 1px solid #ffffff;
 	border-radius: 20px;
 	margin-top: 30px;
-	box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
 }
 .hole {
 	margin-left: 0;
@@ -878,7 +887,7 @@ footer p {
 	color: #8E8E8E;
 }
 .page {
-	font-size: 30px;
+	font-size: 25px;
 	padding-right: 20px;
 	text-decoration: underline;
 	color: #939597;
@@ -1038,8 +1047,17 @@ footer p {
 .min {
 	height: 5vh;
 }
+.min1 {
+	height: 5vh;
+	background-color: #939597;
+	text-align: center;
+}
+.min1 p {
+	color: #ffffff;
+	margin-top: 2vh;
+}
 .min p {
-	padding-top: 1vh;
+	padding-top: 2vh;
 }
 /*account page*/
 .account {
@@ -1079,7 +1097,7 @@ footer p {
 	border: 1px solid #ffffff;
 	border-radius: 20px;
 	margin-top: 30px;
-	box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
 } 
 /* front page */
 .main {
@@ -1285,10 +1303,11 @@ footer p {
 	position: absolute;
 	top: 100px;
 	right: 0;
-	width: 160px;
+	width: 250px;
+	height: 250px;
 	background-color: #333366;
-	font-size: 12px;
-	padding: 20px;
+	font-size: 18px;
+	padding: 38px;
 	border: 1px solid #333366;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1298,10 +1317,11 @@ footer p {
 	position: absolute;
 	top: 150px;
 	left: 0;
-	width: 160px;
+	width: 250px;
+	height: 250px;
 	background-color: #FF9933;
-	font-size: 12px;
-	padding: 20px;
+	font-size: 18px;
+	padding: 38px;
 	border: 1px solid #FF9933;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1311,10 +1331,11 @@ footer p {
 	position: absolute;
 	top: 400px;
 	left: 0;
-	width: 160px;
+	width: 250px;
+	height: 250px;
 	background-color: #999999;
-	font-size: 12px;
-	padding: 20px;
+	font-size: 18px;
+	padding: 38px;
 	border: 1px solid #999999;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1324,10 +1345,11 @@ footer p {
 	position: absolute;
 	top: 100px;
 	right: 0;
-	width: 160px;
+	width: 250px;
+	height: 250px;
 	background-color: #3399CC;
-	font-size: 12px;
-	padding: 20px;
+	font-size: 18px;
+	padding: 38px;
 	border: 1px solid #3399CC;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1337,10 +1359,11 @@ footer p {
 	position: absolute;
 	top: 100px;
 	left: 0;
-	width: 160px;
+	width: 250px;
+	height: 250px;
 	background-color: #CC3333;
-	font-size: 12px;
-	padding: 20px;
+	font-size: 18px;
+	padding: 38px;
 	border: 1px solid #CC3333;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1350,10 +1373,11 @@ footer p {
 	position: absolute;
 	top: 300px;
 	left: 0;
-	width: 160px;
+	width: 250px;
+	height: 250px;
 	background-color: #66CC66;
-	font-size: 12px;
-	padding: 20px;
+	font-size: 18px;
+	padding: 38px;
 	border: 1px solid #66CC66;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1363,10 +1387,11 @@ footer p {
 	position: absolute;
 	top: 400px;
 	right: 0;
-	width: 160px;
+	width: 250px;
+	height: 250px;
 	background-color: #CC6633;
-	font-size: 12px;
-	padding: 20px;
+	font-size: 18px;
+	padding: 38px;
 	border: 1px solid #CC6633;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1376,10 +1401,11 @@ footer p {
 	position: absolute;
 	top: 500px;
 	left: 0;
-	width: 160px;
+	width: 250px;
+	height: 250px;
 	background-color: #993399;
-	font-size: 12px;
-	padding: 20px;
+	font-size: 18px;
+	padding: 38px;
 	border: 1px solid #993399;
 	border-radius: 50%;
 	color: #ffffff;
@@ -1394,6 +1420,9 @@ footer p {
 .sec {
 	padding-top: 10px;
 }
+.mob {
+		display: none;
+	}
 @media only screen and (min-width: 2161px) {
 	.box {
 		width: 300px;
@@ -1403,6 +1432,9 @@ footer p {
 	.logo {
 		margin-left: 100px;
 		width: 200px;
+	}
+	.mob {
+		display: none;
 	}
 	.input-group {
 		margin-right: 50px;
@@ -1566,6 +1598,9 @@ footer p {
 	.navbar-right {
 		margin-top: 0;
 	}
+	.mob {
+		display: none;
+	}
 	.logo {
 		width: 200px;
 		margin-left: 100px;
@@ -1627,6 +1662,32 @@ footer p {
 	}
 	.box {
 		width: 150px;
+	}
+	#desc5 {
+		top: 400px;
+	}
+	#desc, 
+	#desc5,
+	#desc2,
+	#desc3,
+	#desc4,
+	#des3,
+	#des1,
+	#des2 {
+		width: 165px;
+		height: 165px;
+		font-size: 12px;
+		padding: 25px;
+	}
+	#ear, 
+	#cameras,
+	#power,
+	#mute,
+	#screen,
+	#head,
+	#back,
+	#knee {
+		background-size: 40px 40px;
 	}
 	h1 {
 		font-size: 50px;
@@ -2300,6 +2361,35 @@ footer p {
 	.arrow1 {
 		width: 25px;
 	}
+	#desc, 
+	#desc5,
+	#desc2,
+	#desc3,
+	#desc4,
+	#des3,
+	#des1,
+	#des2 {
+		width: 165px;
+		height: 165px;
+		font-size: 12px;
+		padding: 25px;
+	}
+	.min1 p {
+		font-size: 12px;
+	}
+	#ear, 
+	#cameras,
+	#power,
+	#mute,
+	#screen,
+	#head,
+	#back,
+	#knee {
+		background-size: 40px 40px;
+	}
+	.mob {
+		display: none;
+	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.navbar-collapse.collapse {
@@ -2317,8 +2407,37 @@ footer p {
     	.login1 {
 		width: 100%;
 	}
+	.well {
+		display: none;
+	}
+	.mob {
+		display: inline-block;
+	}
 	.login {
 		width: 100%;
+	}
+	#desc, 
+	#desc5,
+	#desc2,
+	#desc3,
+	#desc4,
+	#des3,
+	#des1,
+	#des2 {
+		width: 165px;
+		height: 165px;
+		font-size: 11px;
+		padding: 25px;
+	}
+	#ear, 
+	#cameras,
+	#power,
+	#mute,
+	#screen,
+	#head,
+	#back,
+	#knee {
+		background-size: 40px 40px;
 	}
 	.blueSwipe p,
 .redSwipe p, 
@@ -2598,6 +2717,11 @@ footer p {
 		font-size: 20px;
 		padding-bottom: 10px;
 	}
+	.centerImgF,
+	.centerImgB {
+		height: 75vh;
+		margin-bottom: 30px;
+	}
 	.frontImg,
 	.backImg,
 	.frontImg1,
@@ -2608,10 +2732,10 @@ footer p {
 		top: 590px;
 	}
 	#desc {
-		right: -155px;
+		right: 240px;
 	}
 	#des1 {
-		right: -150px;
+		right: 250px;
 	}
 	.arrow1 {
 		width: 25px;
@@ -2624,6 +2748,29 @@ footer p {
 	}
 	.login1 {
 		width: 100%;
+	}
+	#desc, 
+	#desc5,
+	#desc2,
+	#desc3,
+	#desc4,
+	#des3,
+	#des1,
+	#des2 {
+		width: 165px;
+		height: 165px;
+		font-size: 12px;
+		padding: 25px;
+	}
+	#ear, 
+	#cameras,
+	#power,
+	#mute,
+	#screen,
+	#head,
+	#back,
+	#knee {
+		background-size: 40px 40px;
 	}
 	.login {
 		width: 100%;
@@ -2778,6 +2925,13 @@ footer p {
 	hr {
 		border-top: 1px solid #ffffff;
 		margin-top: 5px;
+	}
+	.frontImg,
+	.backImg {
+		display: none;
+	}
+	.well {
+		display: none;
 	}
 	.blue {
 		border-top: 1px solid #42B7E9;
@@ -2994,49 +3148,52 @@ footer p {
 		height: 15vh;
 	}
 	.centerImgF {
-		height: 37vh;
+		height: 72vh;
 	}
 	.frontImg1 {
 		height: 15vh;
+	}
+	.btn-info, .btn-danger {
+		display: inline-block;
 	}
 	.backImg1 {
 		height: 15vh;
 	}
 	.centerImgB {
-		height: 37vh;
+		height: 75vh;
 		margin-top: 11px;
 	}
 	.swipeB,
 	.blueSwipe {
-		top: -85vh;
+		top: -79vh;
 	}
 	.swipeR,
 	.redSwipe {
-		top: -68vh;
+		top: -62vh;
 	}
 	.swipeG,
 	.greenSwipe {
-		top: -51vh;
+		top: -45vh;
 	}
 	.swipeP,
 	.purpleSwipe {
-		top: -34vh;
+		top: -28vh;
 	}
 	.swipeO,
 	.orangeSwipe {
-		top: -17vh;
+		top: -11vh;
 	}
 	.swipeT,
 	.tegetSwipe {
-		top: -85vh;
+		top: -81vh;
 	}
 	.swipeY,
 	.yellowSwipe {
-		top: -68vh;
+		top: -64vh;
 	}
 	.swipeGr,
 	.graySwipe {
-		top: -51vh;
+		top: -47vh;
 	}
 	.more {
 		font-size: 10px;
@@ -3083,7 +3240,18 @@ footer p {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 370px) {
-	
+	.centerImgF {
+		margin-bottom: 12px;
+	}
+	#desc,
+	#desc2,
+	#desc3,
+	#desc4,
+	#desc5 {
+		top: 300px;
+		left: 112px;
+	}
+
 	.center2 p {
 		font-size: 11px;
 	}
@@ -3111,6 +3279,9 @@ footer p {
 	.mri1 {
 		display: none;
 	}
+	.centerImgB {
+		margin-bottom: 6px;
+	}
 }
 
 @media only screen and (min-width: 381px) and (max-width: 420px) {
@@ -3129,22 +3300,55 @@ footer p {
 		transform: translateY(3%);
 	}
 	.centerImgF {
-		margin-top: 11px;
+		margin-top: 10px;
+		margin-bottom: 20px;
 	}
 	.centerImgB {
-		margin-top: 5px;
+		margin-top: 9px;
+		margin-bottom: 15px;
 	}
 	li.pull-right.black {
 		padding-right: 55px;
+	}
+	#desc3 {
+    left: 40px;
+  }
+  #desc5,
+  #desc2 {
+    left: 40px;
+    top: 325px;
+  }
+  #desc4,
+  #desc  {
+    right: 40px;
+    top: 315px;
+  }
+	#des3,
+	#des1,
+	#des2 {
+		left: 143px;
+		top: 400px;
+	}
+	.min1 p {
+		margin-top: 2vh;
+		font-size: 11px;
 	}
 }
 @media only screen and (min-width: 600px) and (max-width: 650px) {
 	.centerImgF {
 		margin-top: 26px;
+		display: block;
+		margin-bottom: 19px;
 	}
 	.centerImgB {
 		margin-top: 18px;
+		margin-bottom: 19px;
+		display: block
 	}
+	.mob {
+		display: inline-block;
+	}
+
 	.middle {
 		transform: translateY(25%);
 	}
@@ -3257,9 +3461,7 @@ footer p {
 	.center2 {
 		top: 0;
 	}
-	.box {
-		width: 130px;
-	}
+	
 	h4 {
 		font-size: 15px;
 	}
@@ -3280,10 +3482,7 @@ footer p {
 	.w {
 		font-size: 18px;
 	}
-	#play {
-		left: 46%;
-		bottom: 24%;
-	}
+	
 	.login {
 		padding: 10px;
 	}
@@ -3299,9 +3498,38 @@ footer p {
 @media only screen and (min-width: 371px) and (max-width: 380px) {
 	.centerImgF {
 		margin-top: 13px;
+		margin-bottom: 20px;
 	}
 	.centerImgB {
 		margin-top: 13px;
+		margin-bottom: 7px;
+	}
+	
+	#des1,
+	#des2,
+	#des3 {
+		top: 354px;
+		left: 127px;
+	}
+	.swipeB,
+	.blueSwipe {
+		top: -80vh;
+	}
+	.swipeR,
+	.redSwipe {
+		top: -63vh;
+	} 
+	.swipeG,
+	.greenSwipe {
+		top: -46vh;
+	}
+	.swipeP,
+	.purpleSwipe {
+		top: -29vh;
+	}
+	.swipeO,
+	.orangeSwipe {
+		top: -12vh;
 	}
 	.brand li {
 		padding-right: 35px;
@@ -3336,6 +3564,20 @@ footer p {
 	}
 	.w2 {
 		margin-top: 10px;
+	}
+	.hole input[type="text"], .hole input[type="password"] {
+		height: 20px;
+	}
+	#desc3,
+	#desc,
+	#desc2,
+	#desc4,
+	#desc5 {
+		top: 300px;
+		left: 125px;
+	}
+	.min1 p {
+		font-size: 11px;
 	}
 }
 @media only screen and (min-width: 300px) and (max-width: 359px) {
@@ -3401,10 +3643,30 @@ footer p {
 	.middle1 {
 		transform: translateY(0);
 	}
-	.centerImgB,
+	.centerImgB {
+		height: 66vh;
+		margin-top: 49px;
+		margin-bottom: 15px;
+	}
 	.centerImgF {
-		height: 37vh;
+		height: 66vh;
 		margin-top: 38px;
+		margin-bottom: 15px;
+	}
+.blueSwipe p, .redSwipe p, .purpleSwipe p, .greenSwipe p, .orangeSwipe p, .tegetSwipe p, .yellowSwipe p, .graySwipe p {
+	font-size: 10px;
+}
+	#desc,
+	#desc2,
+	#desc3,
+	#desc4,
+	#desc5 {
+		top: 253px;
+		left: 85px;
+	}
+	.min1 p {
+		margin-top: 2vh;
+		font-size: 11px;
 	}
 	.middle {
 	text-align: center;
@@ -3475,5 +3737,23 @@ footer p {
 	}
 	.mri1 {
 		display: none;
+	}
+	#head {
+		left: 152px;
+		top: 15px;
+	}
+	#back {
+		left: 140px;
+		top: 130px;
+	}
+	#knee {
+		left: 102px;
+		top: 247px;
+	}
+	#des1,
+	#des2,
+	#des3 {
+		top: 272px;
+		left: 137px;
 	}
 }
