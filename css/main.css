@@ -184,6 +184,12 @@ h4 {
 	width: 60%;
 	margin: auto;
 }
+.login1 a {
+	text-decoration: none;
+}
+.login1 a:hover {
+	color: #ffffff;
+}
 .check {
 	font-size: 15px;
 	background-color: #EF4136;
@@ -639,6 +645,7 @@ label {
 	border-radius: 20px;
 	height: 45px;
 	color: #42B7E9;
+	font-size: 20px;
 }
 input.mess::-webkit-input-placeholder {
 	color: #42B7E9;
@@ -652,11 +659,11 @@ input.mess::-ms-input-placeholder {
 }
 .mess:focus {
 	border: 1px solid #42B7E9;
-	background: url(../images/tick.png);
+/*	background: url(../images/tick.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	background-origin: content-box;
-	background-size: 30px;
+	background-size: 30px;  */
 }
 textarea.form-control {
 	color: #42B7E9;
@@ -3594,7 +3601,7 @@ footer p {
 	#des1,
 	#des2,
 	#des3 {
-		top: 354px;
+		top: 330px;
 		left: 127px;
 	}
 	.swipeB,
@@ -3660,7 +3667,7 @@ footer p {
 	#desc4,
 	#desc5 {
 		top: 300px;
-		left: 125px;
+		left: 50px;
 	}
 	.min1 p {
 		font-size: 11px;
