@@ -190,6 +190,9 @@ h4 {
 .login1 a:hover {
 	color: #ffffff;
 }
+.middle a {
+	text-decoration: none;
+}
 .check {
 	font-size: 15px;
 	background-color: #EF4136;
