@@ -256,7 +256,7 @@ h3 {
 .center p {
 	padding-top: 50px;
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 17px;
 	text-align: justify;
 }
 .forth {
@@ -274,7 +274,7 @@ h3 {
 .center2 p {
 	padding-top: 50px;
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 17px;
 	text-align: justify;
 }
 .fifth {
@@ -1427,6 +1427,9 @@ footer p {
 	.box {
 		width: 300px;
 	}
+	.mob {
+		display: none;
+	}
 }
 @media only screen and (min-width: 1650px) and (max-width: 2160px) {
 	.logo {
@@ -1519,7 +1522,7 @@ footer p {
 	}
 	.middle,
 	.middle1 {
-		transform: translateY(15%);
+		transform: translateY(10%);
 	}
 	.dash {
 		width: 70%;
@@ -1573,7 +1576,7 @@ footer p {
 		font-size: 15px;
 	}
 	.caption_1 p {
-		font-size: 19px;
+		font-size: 18px;
 	}
 	.caption_1 h3 {
 		font-size: 40px;
@@ -1592,6 +1595,30 @@ footer p {
 	}
 	.arrow1 {
 		width: 25px;
+	}
+	.box {
+		width: 200px;
+	}
+}
+@media only screen and (min-width: 1650px) and (max-width: 1800px) {
+	h1 {
+		font-size: 55px;
+	}
+	h4 {
+		font-size: 22px;
+	}
+	.secondCar h4 {
+		font-size: 22px;
+	}
+	.middle, .middle1 {
+		transform: translateY(5%);
+	}
+	.tri h1 {
+		padding-top: 2vh;
+		font-size: 55px;
+	}
+	.caption3 {
+		margin-bottom: 0;
 	}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1650px) {
@@ -1921,12 +1948,18 @@ footer p {
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
 	.acc {
-		height: 40px;
+		height: 30px;
 	}
 	.logAcc {
-		height: 43px;
+		height: 33px;
+		padding: 0;
 	}
-	
+	.login1 {
+		padding: 20px;
+	}
+	.login {
+		padding: 20px;
+	}
 	.space {
 		padding-left: 9vw;
 	}
@@ -2066,16 +2099,19 @@ footer p {
 		font-size: 12px;
 	}
 	.tri h4 {
-		font-size: 13px;
+		font-size: 11px;
 	}
 	.caption3 h4 {
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.dash p {
 		font-size: 13px;
 	}
 	.tri img {
-		width: 150px;
+		width: 115px;
+	}
+	.mri1 {
+		width: 100px;
 	}
 }
 @media only screen and (min-width: 1401px) and (max-width: 1649px) {
@@ -2088,6 +2124,20 @@ footer p {
 	}
 	.input-group {
 		margin-right: 50px;
+	}
+	.hole input[type="text"], 
+	.hole input[type="password"] {
+		height: 30px;
+	}
+	.logAcc {
+		height: 35px;
+		padding: 0;
+	}
+	.tri h4 {
+		font-size: 13px;
+	}
+	.caption3 h4 {
+		font-size: 13px;
 	}
 }
 @media only screen and (min-width: 1501px) and (max-width: 1550px) {
@@ -3533,11 +3583,11 @@ footer p {
 }
 @media only screen and (min-width: 371px) and (max-width: 380px) {
 	.centerImgF {
-		margin-top: 13px;
+		margin-top: 10px;
 		margin-bottom: 20px;
 	}
 	.centerImgB {
-		margin-top: 13px;
+		margin-top: 10px;
 		margin-bottom: 7px;
 	}
 	
