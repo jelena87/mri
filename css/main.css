@@ -74,6 +74,9 @@ html, body {
 	margin-bottom: 0;
 	border: none;
 }
+.navbar-default .navbar-toggle {
+	right: 30px;
+}
 .header {
 	display: inline-block;
 }
@@ -90,7 +93,7 @@ html, body {
 }
 .logo {
 	margin-left: 150px;
-	margin-top: 10px;
+	margin-top: 0;
 }
 .input-group {
 	width: 200px;
@@ -116,6 +119,10 @@ input.form-control {
 	color: #58585B;
 	font-size: 20px;
 	font-family: 'Source Sans Pro Light';
+	border-radius: 0;
+}
+.search:focus {
+	border: 1px solid #42B7E9;
 }
 /* index page */
 .carousel-inner>.item>img,
@@ -411,6 +418,10 @@ iframe {
 	background-color: transparent;
 	border: none;
 	color: #ffffff;
+	border-radius: 0;
+}
+.search2:focus {
+	border: 1px solid #ffffff;
 }
 input.search2::-webkit-input-placeholder {
 color: #ffffff !important;
@@ -536,7 +547,7 @@ padding-left: 15px;
 	padding-right: 20px;
 }
 .pull-right {
-	padding-top: 0;
+	padding-top: 10px;
 }
 .n {
 	padding-top: 0;
@@ -544,6 +555,7 @@ padding-left: 15px;
 li.pull-right.black {
 	color: #333;
 	padding-right: 0;
+	padding-top: 0;
 }
 .pacemakers ul li a {
 	text-decoration: none;
@@ -648,7 +660,7 @@ label {
 	border-radius: 20px;
 	height: 45px;
 	color: #42B7E9;
-	font-size: 20px;
+	font-size: 17px;
 }
 input.mess::-webkit-input-placeholder {
 	color: #42B7E9;
@@ -1661,7 +1673,7 @@ footer p {
 		width: 25px;
 	}
 	.pull-right {
-		padding-top: 5px;
+		padding-top: 7px;
 	}
 	.sec {
 		padding-top: 10px;
@@ -1925,6 +1937,7 @@ footer p {
 	}
 	.rightNav p {
 		margin-top: 3vh;
+		font-size: 15px;
 	}
 	.space {
 		padding-left: 10vw;
@@ -2057,7 +2070,10 @@ footer p {
 		padding-right: 30px;
 	}
 	.page {
-		font-size: 25px;
+		font-size: 20px;
+	}
+	.sec {
+		padding-top: 5px;
 	}
 	.caption3 h4 {
 		font-size: 12px;
@@ -2074,6 +2090,21 @@ footer p {
 	.caption_1 h3 {
 		font-size: 20px;
 		padding-bottom: 5px;
+	}
+	.login {
+		padding: 10px;
+	}
+	.login1 {
+		padding: 10px;
+	}
+	.acc {
+		height: 35px;
+	}
+	.w2 {
+		margin-top: 20px;
+	}
+	.logAcc {
+		height: 39px;
 	}
 	hr {
 		border-top: 2px solid #ffffff;
@@ -2101,7 +2132,7 @@ footer p {
 	}
 	#play {
 		left: 45%;
-		bottom: 26.5%;
+		bottom: 27.5%;
 	}
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -2122,6 +2153,9 @@ footer p {
 	}
 	.mri1 {
 		width: 100px;
+	}
+	.min1 p {
+		font-size: 12px;
 	}
 }
 @media only screen and (min-width: 1401px) and (max-width: 1649px) {
@@ -2326,28 +2360,31 @@ footer p {
 		margin-right: 0;
 	}
 	.secondCar h4 {
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.second h4 {
 		font-size: 15px;
 	}
 	.dash {
 		width: 100%;
-		padding: 10px;
+		padding: 0;
 	}
 	.dash p {
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.caption3 {
 		margin-bottom: 0;
 		left: 9%;
 	}
 	.mri {
-		width: 150px;
+		width: 120px;
 		margin: 0;
 	}
+	.mri1 {
+		margin: 10px 0;
+	}
 	.caption3 h4 {
-		font-size: 12px;
+		font-size: 10px;
 		padding-bottom: 5px;
 	}
 	.caption3 h6 {
@@ -2369,7 +2406,7 @@ footer p {
 	}
 	.tri h4 {
 		padding-bottom: 10px;
-		font-size: 13px;
+		font-size: 11px;
 	}
 	.recom {
 		margin-top: 15px;
@@ -2566,6 +2603,7 @@ footer p {
 	}
 	h4 {
 		padding-top: 0;
+		font-size: 20px;
 	}
 	h2 {
 		font-size: 35px;
@@ -3046,7 +3084,7 @@ footer p {
 		border-top: 1px solid #42B7E9;
 	}
 	.secondCar h4 {
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.second2 {
 		height: 25vh;
@@ -3331,14 +3369,14 @@ footer p {
 		margin: auto;
 	}
 	.vid p {
-		font-size: 10px;
+		font-size: 9px;
 	}
 	.inline {
 		font-size: 12px;
 	}
 	#play {
 		left: 37%;
-		bottom: 23.5%;
+		bottom: 24.5%;
 	}
 	.page {
 		font-size: 17px;
@@ -3414,7 +3452,7 @@ footer p {
 @media only screen and (min-width: 381px) and (max-width: 420px) {
 	
 	.brand li {
-		padding-right: 53px;
+		padding-right: 55px;
 	}
 	.center p,
 	.center2 p {
@@ -3661,7 +3699,7 @@ footer p {
 		top: -12vh;
 	}
 	.brand li {
-		padding-right: 35px;
+		padding-right: 40px;
 	}
 	.center p,
 	.center2 p {
@@ -3835,7 +3873,7 @@ footer p {
 		margin-top: 10px;
 	}
 	.brand li {
-		padding-right: 10px;
+		padding-right: 15px;
 	}
 	.center2 p {
 		font-size: 10px;
