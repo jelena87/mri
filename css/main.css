@@ -2473,6 +2473,15 @@ footer p {
 	.mob {
 		display: inline-block;
 	}
+	.form-group {
+		margin-top: 12px;
+	}
+	.w1 {
+		margin-bottom: 10px;
+	}
+	.w2 {
+		margin-top: 20px;
+	}
 	.login {
 		width: 100%;
 	}
@@ -2641,12 +2650,14 @@ footer p {
 		transform: translateY(0);
 	}
 	.middle1 {
-		transform: translateY(20%);
+		transform: translateY(10%);
 	}
 	.more {
 		margin-bottom: 20px;
 	}
-	
+	.sign h3 {
+		font-size: 45px;
+	}
 	.blue {
 		border-top: 2px solid #42B7E9;
 	}
@@ -2777,10 +2788,14 @@ footer p {
 		font-size: 20px;
 		padding-bottom: 10px;
 	}
+	#des3 {
+		left: 275px;
+	}
 	.centerImgF,
 	.centerImgB {
 		height: 75vh;
 		margin-bottom: 30px;
+		width: 100%;
 	}
 	.frontImg,
 	.backImg,
@@ -2792,7 +2807,16 @@ footer p {
 		top: 590px;
 	}
 	#desc {
-		right: 240px;
+		right: 310px;
+	}
+	#desc2 {
+		left: -85px;
+	}
+	#desc3 {
+		left: -135px;
+	}
+	#desc5 {
+		left: -65px;
 	}
 	#des1 {
 		right: 250px;
@@ -2811,6 +2835,13 @@ footer p {
 	}
 	footer p {
 		font-size: 12px;
+	}
+	.logos {
+		padding-bottom: 30px;
+	}
+	.logos img {
+		margin-bottom: 20px;
+		margin-top: 10px;
 	}
 	#desc, 
 	#desc5,
@@ -3435,11 +3466,13 @@ footer p {
 		margin-top: 26px;
 		display: block;
 		margin-bottom: 19px;
+		width: 95%;
 	}
 	.centerImgB {
 		margin-top: 18px;
 		margin-bottom: 19px;
-		display: block
+		display: block;
+		width: 95%;
 	}
 	.mob {
 		display: inline-block;
@@ -3768,7 +3801,7 @@ footer p {
 	#desc4,
 	#desc5 {
 		top: 253px;
-		left: 85px;
+		left: 50px;
 	}
 	.min1 p {
 		margin-top: 2vh;

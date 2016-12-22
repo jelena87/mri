@@ -670,33 +670,33 @@ background: url("../images/circle7.png") no-repeat center;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #ear {
-    left: 260px;
+    left: 190px;
   }
   #cameras {
-    left: 163px;
+    left: 115px;
     top: 140px;
   }
   #power {
-    left: 229px;
+    left: 165px;
     top: 160px;
   }
   #screen {
-    left: 272px;
+    left: 195px;
     top: 275px;
   }
   #mute {
-    left: 217px;
+    left: 150px;
     top: 341px;
   }
   #head {
-    left: 258px;
+    left: 180px;
   }
   #back {
-    left: 232px;
+    left: 165px;
     top: 240px;
   }
   #knee {
-    left: 148px;
+    left: 105px;
     top: 470px;
   }
 }
@@ -736,35 +736,35 @@ background: url("../images/circle7.png") no-repeat center;
 }
 @media only screen and (min-width: 600px) and (max-width: 650px) {
     #ear {
-    left: 230px;
+    left: 295px;
     top: -20px;
   }
   #cameras {
-    left: 144px;
+    left: 190px;
     top: 108px;
   }
   #power {
-    left: 203px;
+    left: 270px;
     top: 127px;
   }
   #screen {
-    left: 243px;
+    left: 315px;
     top: 231px;
   }
   #mute {
-    left: 193px;
+    left: 245px;
     top: 287px;
   }
   #head {
-    left: 230px;
+    left: 290px;
     top: -17px;
   }
   #back {
-    left: 216px;
+    left: 265px;
     top: 203px;
   }
   #knee {
-    left: 137px;
+    left: 175px;
     top: 418px;
   }
 }
