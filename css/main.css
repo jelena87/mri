@@ -1166,6 +1166,59 @@ footer p {
 	position: absolute;
 	right: 0;
 }
+.subm {
+	padding-left: 20px;
+	font-size: 12px;
+}
+.subm a {
+	font-size: 12px;
+	border-radius: 20px;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+.submit1 {
+	background-color: #3399CC;
+	color: #ffffff;
+	border: transparent;
+}
+.submit2 {
+	background-color: #CC3333;
+	color: #ffffff;
+	border: transparent;
+}
+.submit3 {
+	background-color: #66CC66;
+	color: #ffffff;
+	border: transparent;
+}
+.submit4 {
+	background-color: #925399;
+	color: #ffffff;
+	border: transparent;
+}
+.submit5 {
+	background-color: #CC6633;
+	color: #ffffff;
+	border: transparent;
+}
+.submit6 {
+	background-color: #333366;
+	
+	color: #ffffff;
+	border: transparent;
+}
+.submit7 {
+	background-color: #FF9933;
+	
+	color: #ffffff;
+	border: transparent;
+}
+.submit8 {
+	background-color: #999999;
+	
+	color: #ffffff;
+	border: transparent;
+}
 .blueSwipe p,
 .redSwipe p, 
 .purpleSwipe p,
@@ -1715,6 +1768,9 @@ footer p {
 	#desc5 {
 		top: 400px;
 	}
+	.subm a {
+		margin-top: 10px;
+	}
 	#desc, 
 	#desc5,
 	#desc2,
@@ -2037,6 +2093,7 @@ footer p {
     	.login {
     		width: 100%;
     	}
+
 	.carousel-caption {
 		transform: translateX(18%);
 	}
@@ -2217,6 +2274,9 @@ footer p {
         .navbar-header .collapse, .navbar-toggle {
           display:block !important;
         }
+        .subm a {
+    		margin-top: 10px;
+    	}
         .navbar-header {
           float:none;
     	} 
@@ -2510,6 +2570,9 @@ footer p {
 	.mob {
 		display: inline-block;
 	}
+	.subm a {
+    		margin-top: 10px;
+    	}
 	.form-group {
 		margin-top: 12px;
 	}
@@ -2871,6 +2934,9 @@ footer p {
 	.login1 {
 		width: 100%;
 	}
+	.subm a {
+    		margin-top: 5px;
+    	}
 	footer p {
 		font-size: 12px;
 	}
@@ -2914,6 +2980,12 @@ footer p {
 	.graySwipe {
 		width: 40vw;
 		font-size: 12px;
+	}
+	.blueSwipe p, .redSwipe p, .purpleSwipe p, .greenSwipe p, .orangeSwipe p, .tegetSwipe p, .yellowSwipe p, .graySwipe p {
+    margin: -15px 0 10px;
+  }
+	.subm {
+		font-size: 10px;
 	}
 	.login {
 		width: 100%;
@@ -3671,7 +3743,13 @@ footer p {
 		margin-top: 10px;
 		margin-bottom: 7px;
 	}
-	
+	.blueSwipe p, .redSwipe p, .purpleSwipe p, .greenSwipe p, .orangeSwipe p, .tegetSwipe p, .yellowSwipe p, .graySwipe p {
+    font-size: 10px;
+  }
+  .subm a {
+  	font-size: 10px;
+  	padding: 5px;
+  }
 	#des1,
 	#des2,
 	#des3 {

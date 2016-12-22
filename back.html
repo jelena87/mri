@@ -71,14 +71,29 @@
 				<div class="swipeT"></div>
 				<div class="tegetSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
+                    <form action="" method="" class="subm">
+                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
+                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <a href="risk.html" class="btn btn-default submit6">Submit</a>
+                </form>
 				</div>
 				<div class="swipeY"></div>
 				<div class="yellowSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
+                    <form action="" method="" class="subm">
+                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
+                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <a href="risk.html" class="btn btn-default submit7">Submit</a>
+                </form>
 				</div>
 				<div class="swipeGr"></div>
 				<div class="graySwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
+                    <form action="" method="" class="subm">
+                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
+                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <a href="risk.html" class="btn btn-default submit8">Submit</a>
+                </form>
 				</div>
 			</div>
 		</div>
@@ -92,17 +107,26 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
     $("#head").hover(function(){
-        $(".tegetSwipe").toggle('slow');
+        $(".tegetSwipe").show('slow');
+    $("img").click(function() {
+        $(".tegetSwipe").hide('slow');
+    });
     });
     });
     $(document).ready(function(){
     $("#back").hover(function(){
-        $(".yellowSwipe").toggle('slow');
+        $(".yellowSwipe").show('slow');
+    $("img").click(function() {
+        $(".yellowSwipe").hide('slow');
+    });
     });
     });
     $(document).ready(function(){
     $("#knee").hover(function(){
-        $(".graySwipe").toggle('slow');
+        $(".graySwipe").show('slow');
+    $("img").click(function() {
+        $(".graySwipe").hide('slow');
+    });
     });
     });
     function writeText(txt) {

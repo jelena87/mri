@@ -835,6 +835,9 @@ background: url("../images/circle7.png") no-repeat center;
     left: 130px;
     top: 315px;
   }
+  .blueSwipe p, .redSwipe p, .purpleSwipe p, .greenSwipe p, .orangeSwipe p, .tegetSwipe p, .yellowSwipe p, .graySwipe p {
+    margin: -15px 0 10px;
+  }
 }
 @media only screen and (min-width: 300px) and (max-width: 359px) {
   #ear {

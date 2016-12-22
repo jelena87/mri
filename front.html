@@ -78,22 +78,47 @@
 				<div class="swipeB"></div>
 				<div class="blueSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
+                <form action="" method="" class="subm">
+                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
+                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <a href="risk.html" class="btn btn-default submit1">Submit</a>
+                </form>
 				</div>
 				<div class="swipeR"></div>
 				<div class="redSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
+                    <form action="" method="" class="subm">
+                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
+                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <a href="risk.html" class="btn btn-default submit2">Submit</a>
+                </form>
 				</div>
 				<div class="swipeG"></div>
 				<div class="greenSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
+                    <form action="" method="" class="subm">
+                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
+                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <a href="risk.html" class="btn btn-default submit3">Submit</a>
+                </form>
 				</div>
 				<div class="swipeP"></div>
 				<div class="purpleSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
+                    <form action="" method="" class="subm">
+                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
+                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <a href="risk.html" class="btn btn-default submit4">Submit</a>
+                </form>
 				</div>
 				<div class="swipeO"></div>
 				<div class="orangeSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
+                    <form action="" method="" class="subm">
+                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
+                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <a href="risk.html" class="btn btn-default submit5">Submit</a>
+                </form>
 				</div>
 			</div>
 		</div>
@@ -107,29 +132,46 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
     $("#ear").hover(function(){
-        $(".blueSwipe").toggle('slow');
+        $(".blueSwipe").show('slow');
+    $("img").click(function() {
+        $(".blueSwipe").hide('slow');
+    });
     });
     });
     $(document).ready(function(){
     $("#cameras").hover(function(){
-        $(".redSwipe").toggle('slow');
+        $(".redSwipe").show('slow');
+    $("img").click(function() {
+        $(".redSwipe").hide('slow');
+    });
     });
     });
     $(document).ready(function(){
     $("#power").hover(function(){
-        $(".greenSwipe").toggle('slow');
+        $(".greenSwipe").show('slow');
+    $("img").click(function() {
+        $(".greenSwipe").hide('slow');
+    });
     });
     });
     $(document).ready(function(){
     $("#screen").hover(function(){
-        $(".purpleSwipe").toggle('slow');
+        $(".purpleSwipe").show('slow');
+    $("img").click(function() {
+        $(".purpleSwipe").hide('slow');
+    });
     });
     });
     $(document).ready(function(){
     $("#mute").hover(function(){
-        $(".orangeSwipe").toggle('slow');
+        $(".orangeSwipe").show('slow');
+    $("img").click(function() {
+        $(".orangeSwipe").hide('slow');
     });
     });
+    });
+    
+
 
     function writeText(txt) {
         document.getElementById("desc").innerHTML = txt;
