@@ -2537,7 +2537,18 @@ input[type="checkbox"] {
 .tegetSwipe p,
 .yellowSwipe p,
 .graySwipe p {
-	font-size: 11px;
+	font-size: 13px;
+	padding-top: 5px;
+}
+.blueSwipe,
+.redSwipe, 
+.purpleSwipe,
+.greenSwipe,
+.orangeSwipe,
+.tegetSwipe,
+.yellowSwipe,
+.graySwipe {
+	width: 25vw;
 }
 	.white {
 		bottom: 950px;
@@ -2870,8 +2881,9 @@ input[type="checkbox"] {
 .tegetSwipe p,
 .yellowSwipe p,
 .graySwipe p {
-	font-size: 11px;
-	padding-top: 0;
+	font-size: 15px;
+	padding-top: 10px;
+
 }
 	.white {
 		bottom: 950px;
@@ -4176,6 +4188,7 @@ input[type="checkbox"] {
 .yellowSwipe p, 
 .graySwipe p {
 	font-size: 10px;
+	padding-top: 15px;
 }
 	#desc,
 	#desc2,
