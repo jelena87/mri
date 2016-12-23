@@ -1498,6 +1498,7 @@ footer p {
 .mob {
 		display: none;
 	}
+	
 @media only screen and (min-width: 2161px) {
 	.box {
 		width: 300px;
@@ -1726,7 +1727,7 @@ footer p {
 		width: 25px;
 	}
 	.pull-right {
-		padding-top: 7px;
+		padding-top: 10px;
 	}
 	.sec {
 		padding-top: 10px;
@@ -2238,7 +2239,13 @@ footer p {
 		font-size: 13px;
 	}
 	.caption3 h4 {
-		font-size: 13px;
+		font-size: 12px;
+	}
+	.pull-right {
+		padding-top: 10px;
+	}
+	.n {
+		padding-top: 0;
 	}
 }
 @media only screen and (min-width: 1501px) and (max-width: 1550px) {
@@ -3384,23 +3391,23 @@ footer p {
 	}
 	.swipeB,
 	.blueSwipe {
-		top: -79vh;
+		top: -80vh;
 	}
 	.swipeR,
 	.redSwipe {
-		top: -62vh;
+		top: -63vh;
 	}
 	.swipeG,
 	.greenSwipe {
-		top: -45vh;
+		top: -46vh;
 	}
 	.swipeP,
 	.purpleSwipe {
-		top: -28vh;
+		top: -29vh;
 	}
 	.swipeO,
 	.orangeSwipe {
-		top: -11vh;
+		top: -12vh;
 	}
 	.swipeT,
 	.tegetSwipe {
@@ -3414,6 +3421,7 @@ footer p {
 	.graySwipe {
 		top: -47vh;
 	}
+	
 	.more {
 		font-size: 10px;
 	}

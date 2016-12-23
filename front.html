@@ -79,8 +79,8 @@
 				<div class="blueSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
                 <form action="" method="" class="subm">
-                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
-                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <input type="checkbox" name="age" value="20"> 20-30 years old<br>
+                    <input type="checkbox" name="age" value="30" checked> 30-40 years old<br>
                     <a href="risk.html" class="btn btn-default submit1">Submit</a>
                 </form>
 				</div>
@@ -88,8 +88,8 @@
 				<div class="redSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
                     <form action="" method="" class="subm">
-                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
-                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <input type="checkbox" name="age" value="20"> 20-30 years old<br>
+                    <input type="checkbox" name="age" value="30" checked> 30-40 years old<br>
                     <a href="risk.html" class="btn btn-default submit2">Submit</a>
                 </form>
 				</div>
@@ -97,8 +97,8 @@
 				<div class="greenSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
                     <form action="" method="" class="subm">
-                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
-                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <input type="checkbox" name="age" value="20"> 20-30 years old<br>
+                    <input type="checkbox" name="age" value="30" checked> 30-40 years old<br>
                     <a href="risk.html" class="btn btn-default submit3">Submit</a>
                 </form>
 				</div>
@@ -106,8 +106,8 @@
 				<div class="purpleSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
                     <form action="" method="" class="subm">
-                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
-                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <input type="checkbox" name="age" value="20"> 20-30 years old<br>
+                    <input type="checkbox" name="age" value="30" checked> 30-40 years old<br>
                     <a href="risk.html" class="btn btn-default submit4">Submit</a>
                 </form>
 				</div>
@@ -115,8 +115,8 @@
 				<div class="orangeSwipe" style="display: none;">
 					<p>Right Side Swipe Questionnaire</p>
                     <form action="" method="" class="subm">
-                    <input type="checkbox" name="vehicle" value="Bike"> 20-30 years old<br>
-                    <input type="checkbox" name="vehicle" value="Car" checked> 30-40 years old<br>
+                    <input type="checkbox" name="age" value="20"> 20-30 years old<br>
+                    <input type="checkbox" name="age" value="30" checked> 30-40 years old<br>
                     <a href="risk.html" class="btn btn-default submit5">Submit</a>
                 </form>
 				</div>
@@ -132,14 +132,17 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
     $("#ear").hover(function(){
+        $(".blueSwipe").css({'height': '34vh', 'z-index': '99'});
         $(".blueSwipe").show('slow');
     $("img").click(function() {
         $(".blueSwipe").hide('slow');
     });
     });
     });
+  
     $(document).ready(function(){
     $("#cameras").hover(function(){
+        $(".redSwipe").css({'height': '34vh', 'z-index': '99'});
         $(".redSwipe").show('slow');
     $("img").click(function() {
         $(".redSwipe").hide('slow');
@@ -148,6 +151,7 @@
     });
     $(document).ready(function(){
     $("#power").hover(function(){
+        $(".greenSwipe").css({'height': '34vh', 'z-index': '99'});
         $(".greenSwipe").show('slow');
     $("img").click(function() {
         $(".greenSwipe").hide('slow');
@@ -156,6 +160,7 @@
     });
     $(document).ready(function(){
     $("#screen").hover(function(){
+        $(".purpleSwipe").css({'height': '34vh', 'z-index': '99'});
         $(".purpleSwipe").show('slow');
     $("img").click(function() {
         $(".purpleSwipe").hide('slow');
@@ -164,15 +169,18 @@
     });
     $(document).ready(function(){
     $("#mute").hover(function(){
-        $(".orangeSwipe").show('slow');
+        if (screen.width < 767) {
+           $(".orangeSwipe").css({'height': '34vh', 'z-index': '99', 'top': '-29vh'});
+           $(".orangeSwipe").show('slow'); 
+        } else {
+        $(".orangeSwipe").css({'height': '34vh', 'z-index': '99', 'top': '51vh'});
+        $(".orangeSwipe").show('slow');}
     $("img").click(function() {
         $(".orangeSwipe").hide('slow');
     });
     });
     });
-    
-
-
+     
     function writeText(txt) {
         document.getElementById("desc").innerHTML = txt;
     }
