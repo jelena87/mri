@@ -3149,6 +3149,9 @@ input[type="checkbox"] {
 	.pacemakers p {
 		padding-top: 2vh;
 	}
+	.inline {
+		font-size: 12px;
+	}
 	.social {
 		text-align: left;
 	}
@@ -3204,7 +3207,7 @@ input[type="checkbox"] {
 		right: 250px;
 	}
 	.arrow1 {
-		width: 25px;
+		width: 20px;
 	}
 }
 @media only screen and (min-width: 300px) and (max-width: 767px) {
@@ -3220,6 +3223,9 @@ input[type="checkbox"] {
     	}
 	footer p {
 		font-size: 12px;
+	}
+	.pull-right {
+		padding-top: 0;
 	}
 	.box1 a,
 	.box2 a,
