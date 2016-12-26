@@ -3286,6 +3286,7 @@ input[type="checkbox"] {
 	}
 	.blueSwipe p, .redSwipe p, .purpleSwipe p, .greenSwipe p, .orangeSwipe p, .tegetSwipe p, .yellowSwipe p, .graySwipe p {
     margin: 0 0 10px;
+    padding-top: 5px;
   }
 	.subm {
 		font-size: 10px;
