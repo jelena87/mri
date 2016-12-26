@@ -1175,7 +1175,7 @@ footer p {
 .yellowSwipe p,
 .graySwipe p {
 	padding-left: 20px;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .swipeB {
 	width: 30px;
@@ -3270,6 +3270,8 @@ input[type="checkbox"] {
 	.log1 {
 		height: 25px;
 		padding: 0;
+		font-size: 12px;
+		padding: 4px;
 	}
 	.nav>li.small {
 		display: inline-block;
@@ -3451,6 +3453,10 @@ input[type="checkbox"] {
 	height: 30px;
 	margin-top: 5px;
 	padding: 4px;
+	}
+	.middle a {
+		font-size: 12px;
+		letter-spacing: 2px;
 	}
 	.middle {
 	text-align: center;
@@ -3661,23 +3667,23 @@ input[type="checkbox"] {
 	}
 	.swipeB,
 	.blueSwipe {
-		top: -80vh;
+		top: -79vh;
 	}
 	.swipeR,
 	.redSwipe {
-		top: -63vh;
+		top: -62vh;
 	}
 	.swipeG,
 	.greenSwipe {
-		top: -46vh;
+		top: -45vh;
 	}
 	.swipeP,
 	.purpleSwipe {
-		top: -29vh;
+		top: -28vh;
 	}
 	.swipeO,
 	.orangeSwipe {
-		top: -12vh;
+		top: -11vh;
 	}
 	.swipeT,
 	.tegetSwipe {
