@@ -1177,7 +1177,7 @@ footer p {
 .yellowSwipe p,
 .graySwipe p {
 	padding-left: 20px;
-	padding-top: 10px;
+	padding-top: 5px;
 }
 .swipeB {
 	width: 30px;
@@ -1452,12 +1452,16 @@ footer p {
   color: #ffffff;
   width: 250px;
 }
+.box1 button,
 .box1 a {
 	background-color: #333366;
 	border-radius: 20px;
 	color: #ffffff;
 	letter-spacing: 3px;
+	border: none;
+	padding: 5px;
 }
+.box1 button:hover,
 .box1 a:hover {
 	background-color: #333366;
 	color: #ffffff;
@@ -1514,12 +1518,16 @@ input[type="checkbox"] {
 .box2 input[type="checkbox"]:checked + label:after {
   font-weight: bold;
 }
+.box2 button,
 .box2 a {
 	background-color: #FF9933;
 	border-radius: 20px;
 	color: #ffffff;
 	letter-spacing: 3px;
+	border: none;
+	padding: 5px;
 }
+.box2 button:hover,
 .box2 a:hover {
 	background-color: #FF9933;
 	color: #ffffff;
@@ -1548,12 +1556,16 @@ input[type="checkbox"] {
 .box3 input[type="checkbox"]:checked + label:after {
   font-weight: bold;
 }
+.box3 button,
 .box3 a {
 	background-color: #999999;
 	border-radius: 20px;
 	color: #ffffff;
 	letter-spacing: 3px;
+	border: none;
+	padding: 5px;
 }
+.box3 button:hover,
 .box3 a:hover {
 	background-color: #999999;
 	color: #ffffff;
@@ -1582,12 +1594,16 @@ input[type="checkbox"] {
 .box4 input[type="checkbox"]:checked + label:after {
   font-weight: bold;
 }
+.box4 button,
 .box4 a {
 	background-color: #3399CC;
 	border-radius: 20px;
 	color: #ffffff;
 	letter-spacing: 3px;
+	border: none;
+	padding: 5px;
 }
+.box4 button:hover,
 .box4 a:hover {
 	background-color: #3399CC;
 	color: #ffffff;
@@ -1616,12 +1632,16 @@ input[type="checkbox"] {
 .box5 input[type="checkbox"]:checked + label:after {
   font-weight: bold;
 }
+.box5 button,
 .box5 a {
 	background-color: #CC3333;
 	border-radius: 20px;
 	color: #ffffff;
 	letter-spacing: 3px;
+	border: none;
+	padding: 5px;
 }
+.box5 button:hover,
 .box5 a:hover {
 	background-color: #CC3333;
 	color: #ffffff;
@@ -1650,12 +1670,16 @@ input[type="checkbox"] {
 .box6 input[type="checkbox"]:checked + label:after {
   font-weight: bold;
 }
+.box6 button,
 .box6 a {
 	background-color: #66CC66;
 	border-radius: 20px;
 	color: #ffffff;
 	letter-spacing: 3px;
+	border: none;
+	padding: 5px;
 }
+.box6 button:hover,
 .box6 a:hover {
 	background-color: #66CC66;
 	color: #ffffff;
@@ -1684,12 +1708,16 @@ input[type="checkbox"] {
 .box7 input[type="checkbox"]:checked + label:after {
   font-weight: bold;
 }
+.box7 button,
 .box7 a {
 	background-color: #925399;
 	border-radius: 20px;
 	color: #ffffff;
 	letter-spacing: 3px;
+	border: none;
+	padding: 5px;
 }
+.box7 button:hover,
 .box7 a:hover {
 	background-color: #925399;
 	color: #ffffff;
@@ -1718,16 +1746,40 @@ input[type="checkbox"] {
 .box8 input[type="checkbox"]:checked + label:after {
   font-weight: bold;
 }
+.box8 button,
 .box8 a {
 	background-color: #CC6633;
 	border-radius: 20px;
 	color: #ffffff;
 	letter-spacing: 3px;
+	border: none;
+	padding: 5px;
 }
+.box8 button:hover,
 .box8 a:hover {
 	background-color: #CC6633;
 	color: #ffffff;
 }
+.box4 select,
+.box1 select,
+.box2 select,
+.box3 select,
+.box5 select,
+.box6 select,
+.box7 select,
+.box8 select {
+	color: #000000;
+}
+.box4 input,
+.box1 input,
+.box2 input,
+.box3 input,
+.box5 input,
+.box6 input,
+.box7 input,
+.box8 input {
+	color: #000000;
+} 
 @media only screen and (min-width: 2161px) {
 	.box {
 		width: 300px;
@@ -1750,6 +1802,17 @@ input[type="checkbox"] {
 	.nav>li>a {
 		padding: 10px 10px;
 	}
+	.blueSwipe p,
+.redSwipe p, 
+.purpleSwipe p,
+.greenSwipe p,
+.orangeSwipe p,
+.tegetSwipe p,
+.yellowSwipe p,
+.graySwipe p {
+	padding-top: 0;
+	margin: 0 0 5px;
+}
 	.caption {
 		margin-bottom: 5vh;
 	}
@@ -2252,6 +2315,8 @@ input[type="checkbox"] {
 .yellowSwipe p,
 .graySwipe p {
 	font-size: 12px;
+	padding-top: 0px;
+	margin: 0 0 5px;
 }
 }
 
@@ -2557,6 +2622,7 @@ input[type="checkbox"] {
 .graySwipe p {
 	font-size: 13px;
 	padding-top: 5px;
+	margin: 0;
 }
 .blueSwipe,
 .redSwipe, 
@@ -2900,7 +2966,7 @@ input[type="checkbox"] {
 .yellowSwipe p,
 .graySwipe p {
 	font-size: 15px;
-	padding-top: 10px;
+	padding-top: 5px;
 
 }
 	.white {
@@ -3285,8 +3351,8 @@ input[type="checkbox"] {
 		font-size: 12px;
 	}
 	.blueSwipe p, .redSwipe p, .purpleSwipe p, .greenSwipe p, .orangeSwipe p, .tegetSwipe p, .yellowSwipe p, .graySwipe p {
-    margin: 0 0 10px;
-    padding-top: 5px;
+    margin: 0;
+    padding-top: 0;
   }
 	.subm {
 		font-size: 10px;
@@ -3450,6 +3516,7 @@ input[type="checkbox"] {
 	hr {
 		border-top: 1px solid #ffffff;
 		margin-top: 5px;
+		width: 90%;
 	}
 	.frontImg,
 	.backImg {
@@ -3653,6 +3720,7 @@ input[type="checkbox"] {
 	}
 	.caption_1 hr {
 		margin-bottom: 0;
+		width: 100%;
 	}
 	.carousel-caption {
 		padding-bottom: 0;
@@ -4221,7 +4289,7 @@ input[type="checkbox"] {
 .yellowSwipe p, 
 .graySwipe p {
 	font-size: 10px;
-	padding-top: 15px;
+	padding-top: 0;
 }
 	#desc,
 	#desc2,

@@ -77,20 +77,80 @@
 			<div class="col-lg-3 col-md-3 col-sm-3 ">
 				<div class="swipeB"></div>
 				<div class="blueSwipe" style="display: none;">
-					<p>Right Side Swipe Questionnaire</p>
-                <div class="content">
+					<div class="content">
+                    <p>Is it a Medical Implant or Foreign Object?</p>
                         <div class="box4">
                             <p>
-                                <input type="checkbox" id="b1" name="cb">
-                                <label for="b1">Option 01</label>
+                                <input type="checkbox" id="b1" name="cb" class="c1">
+                                <label for="b1">Foreign object</label>
                             </p>
                             <p>
                                 <input type="checkbox" id="b2" name="cb">
-                                <label for="b2">Option 02</label>
+                                <label for="b2">Medical implant</label>
                             </p>
                             <p>
-                                <input type="checkbox" id="b3" name="cb">
-                                <label for="b3">Option 03</label>
+                                <button type="">Submit</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content1" style="display: none;">
+                        <p>Foreign object</p>
+                        <div class="box4">
+                            <p>
+                                Select type:
+                                    <select name="objects">
+                                    <option value="">Foreign object 1</option>
+                                    <option value="">Foreign object 2</option>
+                                    <option value="">Foreign object 3</option>
+                                    <option value="">Foreign object 4</option>
+                                    </select>
+                                    
+                                
+                            </p>
+                            <p>
+                            Where is it approximately?
+                                <select name="place">
+                                    <option value="">Place 1</option>
+                                    <option value="">Place 2</option>
+                                    <option value="">Place 3</option>
+                                    <option value="">Place 4</option>
+                                    </select>
+                            </p>
+                            <p>
+                                Month/Year of incident:</p>
+                             <p>   <input type="month" name="">
+                            </p>
+                            <p>
+                                <a href="risk.html" class="btn btn-default">Submit</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content2" style="display: none;">
+                        <p>Medical implant</p>
+                        <div class="box4">
+                            <p>
+                            Do you know the Make/Model?</p>
+                             <p>   <input type="checkbox" id="c-1" name="cb" class="checkbox">
+                                <label for="c-1">Yes</label></p>
+                                <div class="yes" style="display: none;">
+                                <p>Input Make and Model info:</p>
+                             <p>   <input type="text"/></p>
+                                </div>
+                              <p>  <input type="checkbox" id="c-2" name="cb" class="checkbox2">
+                                <label for="c-2">No</label></p>
+                                <div class="no" style="display: none;">
+                                  <p>What type of Implant?</p> 
+                                 <p> <select name="place">
+                                    <option value="">Implant 1</option>
+                                    <option value="">Implant 2</option>
+                                    <option value="">Implant 3</option>
+                                    <option value="">Implant 4</option>
+                                    </select></p>
+                                </div>
+                            </p>
+                            <p>
+                            When did you get this implant?
+                               <input type="month" name=""> 
                             </p>
                             <p>
                                 <a href="risk.html" class="btn btn-default">Submit</a>
@@ -100,20 +160,80 @@
 				</div>
 				<div class="swipeR"></div>
 				<div class="redSwipe" style="display: none;">
-					<p>Right Side Swipe Questionnaire</p>
-                    <div class="content">
+					<div class="content">
+                    <p>Is it a Medical Implant or Foreign Object?</p>
                         <div class="box5">
                             <p>
+                                <input type="checkbox" id="b3" name="cb" class="c1">
+                                <label for="b3">Foreign object</label>
+                            </p>
+                            <p>
                                 <input type="checkbox" id="b4" name="cb">
-                                <label for="b4">Option 01</label>
+                                <label for="b4">Medical implant</label>
                             </p>
                             <p>
-                                <input type="checkbox" id="b5" name="cb">
-                                <label for="b5">Option 02</label>
+                                <button type="">Submit</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content1" style="display: none;">
+                        <p>Foreign object</p>
+                        <div class="box5">
+                            <p>
+                                Select type:
+                                    <select name="objects">
+                                    <option value="">Foreign object 1</option>
+                                    <option value="">Foreign object 2</option>
+                                    <option value="">Foreign object 3</option>
+                                    <option value="">Foreign object 4</option>
+                                    </select>
+                                    
+                                
                             </p>
                             <p>
-                                <input type="checkbox" id="b6" name="cb">
-                                <label for="b6">Option 03</label>
+                            Where is it approximately?
+                                <select name="place">
+                                    <option value="">Place 1</option>
+                                    <option value="">Place 2</option>
+                                    <option value="">Place 3</option>
+                                    <option value="">Place 4</option>
+                                    </select>
+                            </p>
+                            <p>
+                                Month/Year of incident:
+                                <input type="month" name="">
+                            </p>
+                            <p>
+                                <a href="risk.html" class="btn btn-default">Submit</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content2" style="display: none;">
+                        <p>Medical implant</p>
+                        <div class="box5">
+                            <p>
+                            Do you know the Make/Model?</p>
+                             <p>   <input type="checkbox" id="c-3" name="cb" class="checkbox">
+                                <label for="c-3">Yes</label></p>
+                                <div class="yes" style="display: none;">
+                                <p>Input Make and Model info:</p>
+                               <p> <input type="text"/></p>
+                                </div>
+                             <p>   <input type="checkbox" id="c-4" name="cb" class="checkbox2">
+                                <label for="c-4">No</label></p>
+                                <div class="no" style="display: none;">
+                                  <p>What type of Implant?</p> 
+                                 <p>  <select name="place">
+                                    <option value="">Implant 1</option>
+                                    <option value="">Implant 2</option>
+                                    <option value="">Implant 3</option>
+                                    <option value="">Implant 4</option>
+                                    </select></p>
+                                </div>
+                            </p>
+                            <p>
+                            When did you get this implant?
+                               <input type="month" name=""> 
                             </p>
                             <p>
                                 <a href="risk.html" class="btn btn-default">Submit</a>
@@ -123,20 +243,80 @@
 				</div>
 				<div class="swipeG"></div>
 				<div class="greenSwipe" style="display: none;">
-					<p>Right Side Swipe Questionnaire</p>
-                    <div class="content">
+					<div class="content">
+                    <p>Is it a Medical Implant or Foreign Object?</p>
                         <div class="box6">
                             <p>
-                                <input type="checkbox" id="b7" name="cb">
-                                <label for="b7">Option 01</label>
+                                <input type="checkbox" id="b5" name="cb" class="c1">
+                                <label for="b5">Foreign object</label>
                             </p>
                             <p>
-                                <input type="checkbox" id="b8" name="cb">
-                                <label for="b8">Option 02</label>
+                                <input type="checkbox" id="b6" name="cb">
+                                <label for="b6">Medical implant</label>
                             </p>
                             <p>
-                                <input type="checkbox" id="b9" name="cb">
-                                <label for="b9">Option 03</label>
+                                <button type="">Submit</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content1" style="display: none;">
+                        <p>Foreign object</p>
+                        <div class="box6">
+                            <p>
+                                Select type:
+                                    <select name="objects">
+                                    <option value="">Foreign object 1</option>
+                                    <option value="">Foreign object 2</option>
+                                    <option value="">Foreign object 3</option>
+                                    <option value="">Foreign object 4</option>
+                                    </select>
+                                    
+                                
+                            </p>
+                            <p>
+                            Where is it approximately?
+                                <select name="place">
+                                    <option value="">Place 1</option>
+                                    <option value="">Place 2</option>
+                                    <option value="">Place 3</option>
+                                    <option value="">Place 4</option>
+                                    </select>
+                            </p>
+                            <p>
+                                Month/Year of incident:
+                                <input type="month" name="">
+                            </p>
+                            <p>
+                                <a href="risk.html" class="btn btn-default">Submit</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content2" style="display: none;">
+                        <p>Medical implant</p>
+                        <div class="box6">
+                            <p>
+                            Do you know the Make/Model?</p>
+                             <p>   <input type="checkbox" id="c-5" name="cb" class="checkbox">
+                                <label for="c-5">Yes</label></p>
+                                <div class="yes" style="display: none;">
+                                <p>Input Make and Model info:</p>
+                              <p>  <input type="text"/></p>
+                                </div>
+                             <p>   <input type="checkbox" id="c-6" name="cb" class="checkbox2">
+                                <label for="c-6">No</label></p>
+                                <div class="no" style="display: none;">
+                                  <p>What type of Implant?</p> 
+                                 <p>  <select name="place">
+                                    <option value="">Implant 1</option>
+                                    <option value="">Implant 2</option>
+                                    <option value="">Implant 3</option>
+                                    <option value="">Implant 4</option>
+                                    </select></p>
+                                </div>
+                            </p>
+                            <p>
+                            When did you get this implant?
+                               <input type="month" name=""> 
                             </p>
                             <p>
                                 <a href="risk.html" class="btn btn-default">Submit</a>
@@ -146,20 +326,80 @@
 				</div>
 				<div class="swipeP"></div>
 				<div class="purpleSwipe" style="display: none;">
-					<p>Right Side Swipe Questionnaire</p>
-                    <div class="content">
+					<div class="content">
+                    <p>Is it a Medical Implant or Foreign Object?</p>
                         <div class="box7">
                             <p>
-                                <input type="checkbox" id="a1" name="cb">
-                                <label for="a1">Option 01</label>
+                                <input type="checkbox" id="b7" name="cb" class="c1">
+                                <label for="b8">Foreign object</label>
                             </p>
                             <p>
-                                <input type="checkbox" id="a2" name="cb">
-                                <label for="a2">Option 02</label>
+                                <input type="checkbox" id="c2" name="cb">
+                                <label for="c2">Medical implant</label>
                             </p>
                             <p>
-                                <input type="checkbox" id="a3" name="cb">
-                                <label for="a3">Option 03</label>
+                                <button type="">Submit</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content1" style="display: none;">
+                        <p>Foreign object</p>
+                        <div class="box7">
+                            <p>
+                                Select type:
+                                    <select name="objects">
+                                    <option value="">Foreign object 1</option>
+                                    <option value="">Foreign object 2</option>
+                                    <option value="">Foreign object 3</option>
+                                    <option value="">Foreign object 4</option>
+                                    </select>
+                                    
+                                
+                            </p>
+                            <p>
+                            Where is it approximately?
+                                <select name="place">
+                                    <option value="">Place 1</option>
+                                    <option value="">Place 2</option>
+                                    <option value="">Place 3</option>
+                                    <option value="">Place 4</option>
+                                    </select>
+                            </p>
+                            <p>
+                                Month/Year of incident:
+                                <input type="month" name="">
+                            </p>
+                            <p>
+                                <a href="risk.html" class="btn btn-default">Submit</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content2" style="display: none;">
+                        <p>Medical implant</p>
+                        <div class="box7">
+                            <p>
+                            Do you know the Make/Model?</p>
+                             <p>   <input type="checkbox" id="c-7" name="cb" class="checkbox">
+                                <label for="c-7">Yes</label></p>
+                                <div class="yes" style="display: none;">
+                                <p>Input Make and Model info:</p>
+                               <p> <input type="text"/></p>
+                                </div>
+                             <p>   <input type="checkbox" id="c-8" name="cb" class="checkbox2">
+                                <label for="c-8">No</label></p>
+                                <div class="no" style="display: none;">
+                                  <p>What type of Implant?</p> 
+                                 <p>  <select name="place">
+                                    <option value="">Implant 1</option>
+                                    <option value="">Implant 2</option>
+                                    <option value="">Implant 3</option>
+                                    <option value="">Implant 4</option>
+                                    </select></p>
+                                </div>
+                            </p>
+                            <p>
+                            When did you get this implant?
+                               <input type="month" name=""> 
                             </p>
                             <p>
                                 <a href="risk.html" class="btn btn-default">Submit</a>
@@ -169,20 +409,81 @@
 				</div>
 				<div class="swipeO"></div>
 				<div class="orangeSwipe" style="display: none;">
-					<p>Right Side Swipe Questionnaire</p>
-                   <div class="content">
+					<div class="content">
+                    <p>Is it a Medical Implant or Foreign Object?</p>
                         <div class="box8">
                             <p>
-                                <input type="checkbox" id="a4" name="cb">
-                                <label for="a4">Option 01</label>
+                                <input type="checkbox" id="a1" name="cb" class="c1">
+                                <label for="a1">Foreign object</label>
                             </p>
                             <p>
-                                <input type="checkbox" id="a5" name="cb">
-                                <label for="a5">Option 02</label>
+                                <input type="checkbox" id="a2" name="cb">
+                                <label for="a2">Medical implant</label>
                             </p>
                             <p>
-                                <input type="checkbox" id="a6" name="cb">
-                                <label for="a6">Option 03</label>
+                                <button type="">Submit</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content1" style="display: none;">
+                        <p>Foreign object</p>
+                        <div class="box8">
+                            <p>
+                                Select type:
+                                    <select name="objects">
+                                    <option value="">Foreign object 1</option>
+                                    <option value="">Foreign object 2</option>
+                                    <option value="">Foreign object 3</option>
+                                    <option value="">Foreign object 4</option>
+                                    </select>
+                                    
+                                
+                            </p>
+                            <p>
+                            Where is it approximately?
+                                <select name="place">
+                                    <option value="">Place 1</option>
+                                    <option value="">Place 2</option>
+                                    <option value="">Place 3</option>
+                                    <option value="">Place 4</option>
+                                    </select>
+                            </p>
+                            <p>
+                                Month/Year of incident:
+                                <input type="month" name="">
+                            </p>
+                            <p>
+                                <a href="risk.html" class="btn btn-default">Submit</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content2" style="display: none;">
+                        <p>Medical implant</p>
+                        <div class="box8">
+                            <p>
+                            Do you know the Make/Model?</p>
+                            <p>
+                                <input type="checkbox" id="b-1" name="cb" class="checkbox">
+                                <label for="b-1">Yes</label></p>
+                                <div class="yes" style="display: none;">
+                                <p>Input Make and Model info:</p>
+                               <p> <input type="text"/></p>
+                                </div>
+                             <p>   <input type="checkbox" id="b-2" name="cb" class="checkbox2">
+                                <label for="b-2">No</label></p>
+                                <div class="no" style="display: none;">
+                                  <p>What type of Implant?</p> 
+                                 <p>  <select name="place">
+                                    <option value="">Implant 1</option>
+                                    <option value="">Implant 2</option>
+                                    <option value="">Implant 3</option>
+                                    <option value="">Implant 4</option>
+                                    </select></p>
+                                </div>
+                            
+                            <p>
+                            When did you get this implant?
+                               <input type="month" name=""> 
                             </p>
                             <p>
                                 <a href="risk.html" class="btn btn-default">Submit</a>
@@ -296,6 +597,40 @@
     function hiddenP() {
         document.getElementById("desc5").style.visibility= "hidden";
     }
+    $(document).ready(function() {
+        $("button").click(function() {
+            check = $(".c1").is(":checked");
+            if(check) {
+                $(".content").hide();
+                $(".content1").show();
+            } else {
+                $(".content").hide();
+                $(".content2").show();
+            }
+        });
+    });
+    $(document).ready(function () {
+    
+
+    $('.checkbox').on('click',function () {
+        if ($(".checkbox").is(':checked')) {
+            $(".yes").show();
+            
+        } else {
+            $(".no").show();
+            
+        }
+    });
+    $('.checkbox2').on('click',function () {
+        if ($(".checkbox2").is(':checked')) {
+            $(".no").show();
+            
+        } else {
+            $(".yes").show();
+            
+        }
+    });
+});
 	</script> 
 
 </body>
