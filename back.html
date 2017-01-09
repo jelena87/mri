@@ -90,7 +90,7 @@
                         <p>Foreign object</p>
                         <div class="box1">
                             <p>
-                                Select type:
+                                Select type:<br>
                                     <select name="objects">
                                     <option value="">Foreign object 1</option>
                                     <option value="">Foreign object 2</option>
@@ -101,7 +101,7 @@
                                 
                             </p>
                             <p>
-                            Where is it approximately?
+                            Where is it approximately?<br>
                                 <select name="place">
                                     <option value="">Place 1</option>
                                     <option value="">Place 2</option>
@@ -110,7 +110,7 @@
                                     </select>
                             </p>
                             <p>
-                                Month/Year of incident:
+                                Month/Year of incident:<br>
                                 <input type="month" name="">
                             </p>
                             <p>
@@ -142,7 +142,7 @@
                                 </div>
                             </p>
                             <p>
-                            When did you get this implant?
+                            When did you get this implant?<br>
                                <input type="month" name=""> 
                             </p>
                             <p>
@@ -173,7 +173,7 @@
                         <p>Foreign object</p>
                         <div class="box2">
                             <p>
-                                Select type:
+                                Select type:<br>
                                     <select name="objects">
                                     <option value="">Foreign object 1</option>
                                     <option value="">Foreign object 2</option>
@@ -184,7 +184,7 @@
                                 
                             </p>
                             <p>
-                            Where is it approximately?
+                            Where is it approximately?<br>
                                 <select name="place">
                                     <option value="">Place 1</option>
                                     <option value="">Place 2</option>
@@ -193,7 +193,7 @@
                                     </select>
                             </p>
                             <p>
-                                Month/Year of incident:
+                                Month/Year of incident:<br>
                                 <input type="month" name="">
                             </p>
                             <p>
@@ -225,7 +225,7 @@
                                 </div>
                             </p>
                             <p>
-                            When did you get this implant?
+                            When did you get this implant?<br>
                                <input type="month" name=""> 
                             </p>
                             <p>
@@ -256,7 +256,7 @@
                         <p>Foreign object</p>
                         <div class="box3">
                             <p>
-                                Select type:
+                                Select type:<br>
                                     <select name="objects">
                                     <option value="">Foreign object 1</option>
                                     <option value="">Foreign object 2</option>
@@ -267,7 +267,7 @@
                                 
                             </p>
                             <p>
-                            Where is it approximately?
+                            Where is it approximately?<br>
                                 <select name="place">
                                     <option value="">Place 1</option>
                                     <option value="">Place 2</option>
@@ -276,7 +276,7 @@
                                     </select>
                             </p>
                             <p>
-                                Month/Year of incident:
+                                Month/Year of incident:<br>
                                 <input type="month" name="">
                             </p>
                             <p>
@@ -308,7 +308,7 @@
                                 </div>
                             </p>
                             <p>
-                            When did you get this implant?
+                            When did you get this implant?<br>
                                <input type="month" name=""> 
                             </p>
                             <p>
@@ -331,7 +331,7 @@
     $("#head").hover(function(){
         $(".tegetSwipe").css({'height': '34vh', 'z-index': '99'});
         $(".tegetSwipe").show('slow');
-    $("img").click(function() {
+    $(".plus-feature").not("#head").hover(function() {
         $(".tegetSwipe").hide('slow');
     });
     });
@@ -340,7 +340,7 @@
     $("#back").hover(function(){
         $(".yellowSwipe").css({'height': '34vh', 'z-index': '99'});
         $(".yellowSwipe").show('slow');
-    $("img").click(function() {
+    $(".plus-feature").not("#back").hover(function() {
         $(".yellowSwipe").hide('slow');
     });
     });
@@ -349,7 +349,7 @@
     $("#knee").hover(function(){
         $(".graySwipe").css({'height': '34vh', 'z-index': '99'});
         $(".graySwipe").show('slow');
-    $("img").click(function() {
+    $(".plus-feature").not("#knee").hover(function() {
         $(".graySwipe").hide('slow');
     });
     });
