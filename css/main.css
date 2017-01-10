@@ -1200,6 +1200,24 @@ footer p {
 	padding-left: 20px;
 	padding-top: 5px;
 }
+.gr {
+	margin-left: 10px;
+}
+.lf {
+	display: inline-block;
+}
+.blueSwipe h4,
+.redSwipe h4, 
+.purpleSwipe h4,
+.greenSwipe h4,
+.orangeSwipe h4,
+.tegetSwipe h4,
+.yellowSwipe h4,
+.graySwipe h4 {
+	text-align: center;
+	padding-top: 10px;
+}
+
 .swipeB {
 	width: 30px;
 	background-color: #3281B9;
@@ -1293,6 +1311,11 @@ footer p {
 	background-color: transparent;
 	box-shadow: none;
 	border: none;
+	margin-left: 5px;
+}
+.ginfo input:focus {
+	background-color: #ffffff;
+	color: #000000;
 }
 .inf {
 	border-radius: 20px;
@@ -1300,25 +1323,43 @@ footer p {
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
-	margin-left: 20px;
+	margin-left: 40px;
+	margin-top: 15px;
 }
 .inpg {
 	color: #ffffff;
 }
 #inf1 {
-	background-color: #3399CC;
+	color: #3399CC;
+	background-color: #ffffff;
 }
 #inf2 {
-	background-color: #CC3333;
+	color: #CC3333;
+	background-color: #ffffff;
 }
 #inf3 {
-	background-color: #66CC66;
+	color: #66CC66;
+	background-color: #ffffff;
 }
 #inf4 {
-	background-color: #925399;
+	color: #925399;
+	background-color: #ffffff;
 }
 #inf5 {
-	background-color: #CC6633;
+	color: #CC6633;
+	background-color: #ffffff;
+}
+#inf6 {
+	color: #333366;
+	background-color: #ffffff;
+}
+#inf7 {
+	color: #FF9933;
+	background-color: #ffffff;
+}
+#inf8 {
+	color: #999999;
+	background-color: #ffffff;
 }
 /* search page */
 .midd {
@@ -1511,7 +1552,7 @@ footer p {
 	opacity: 0.6;
 }
 .content p {
-	padding-top: 10px;
+	padding-top: 15px;
 }
 .box img {
 		width: 200px;
@@ -1528,13 +1569,12 @@ footer p {
 .box1 {
   background: transparent;
   color: #ffffff;
-  width: 250px;
 }
 .box1 button,
 .box1 a {
-	background-color: #333366;
+	color: #333366;
 	border-radius: 20px;
-	color: #ffffff;
+	background-color: #ffffff;
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
@@ -1598,9 +1638,9 @@ input[type="checkbox"] {
 }
 .box2 button,
 .box2 a {
-	background-color: #FF9933;
+	color: #FF9933;
 	border-radius: 20px;
-	color: #ffffff;
+	background-color: #ffffff;
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
@@ -1636,9 +1676,9 @@ input[type="checkbox"] {
 }
 .box3 button,
 .box3 a {
-	background-color: #999999;
+	color: #999999;
 	border-radius: 20px;
-	color: #ffffff;
+	background-color: #ffffff;
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
@@ -1674,9 +1714,9 @@ input[type="checkbox"] {
 }
 .box4 button,
 .box4 a {
-	background-color: #3399CC;
+	color: #3399CC;
 	border-radius: 20px;
-	color: #ffffff;
+	background-color: #ffffff;
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
@@ -1712,9 +1752,9 @@ input[type="checkbox"] {
 }
 .box5 button,
 .box5 a {
-	background-color: #CC3333;
+	color: #CC3333;
 	border-radius: 20px;
-	color: #ffffff;
+	background-color: #ffffff;
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
@@ -1750,9 +1790,9 @@ input[type="checkbox"] {
 }
 .box6 button,
 .box6 a {
-	background-color: #66CC66;
+	color: #66CC66;
 	border-radius: 20px;
-	color: #ffffff;
+	background-color: #ffffff;
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
@@ -1788,9 +1828,9 @@ input[type="checkbox"] {
 }
 .box7 button,
 .box7 a {
-	background-color: #925399;
+	color: #925399;
 	border-radius: 20px;
-	color: #ffffff;
+	background-color: #ffffff;
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
@@ -1826,9 +1866,9 @@ input[type="checkbox"] {
 }
 .box8 button,
 .box8 a {
-	background-color: #CC6633;
+	color: #CC6633;
 	border-radius: 20px;
-	color: #ffffff;
+	background-color: #ffffff;
 	letter-spacing: 3px;
 	border: none;
 	padding: 5px 10px;
@@ -1847,6 +1887,7 @@ input[type="checkbox"] {
 .box7 select,
 .box8 select {
 	color: #000000;
+	margin-top: 10px;
 }
 .box4 input,
 .box1 input,
@@ -2080,6 +2121,9 @@ input[type="checkbox"] {
 	.logo {
 		width: 200px;
 		margin-left: 100px;
+	}
+	.ifn {
+		font-size: 12px;
 	}
 	.logo2 {
 		width: 200px;
@@ -2405,6 +2449,32 @@ input[type="checkbox"] {
 label {
 	font-size: 12px;
 }
+.blueSwipe h4, 
+.redSwipe h4, 
+.purpleSwipe h4, 
+.greenSwipe h4, 
+.orangeSwipe h4, 
+.tegetSwipe h4, 
+.yellowSwipe h4, 
+.graySwipe h4 {
+	font-size: 20px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.inf {
+	margin-top: 5px;
+	font-size: 10px;
+}
+.blueSwipe,
+.redSwipe, 
+.purpleSwipe,
+.greenSwipe,
+.orangeSwipe,
+.tegetSwipe,
+.yellowSwipe,
+.graySwipe {
+	width: 25vw;
+}
 }
 
 
@@ -2700,7 +2770,7 @@ label {
 	.mid {
 		transform: translateX(-25%);
 	}
-	.blueSwipe p,
+.blueSwipe p,
 .redSwipe p, 
 .purpleSwipe p,
 .greenSwipe p,
@@ -2720,7 +2790,10 @@ label {
 .tegetSwipe,
 .yellowSwipe,
 .graySwipe {
-	width: 25vw;
+	width: 30vw;
+}
+.inf {
+	font-size: 10px;
 }
 	.white {
 		bottom: 950px;
@@ -2982,6 +3055,13 @@ label {
          .graySwipe {
          	width: 40vw;
          }
+         .inf {
+         	font-size: 12px;
+         	margin-top: 5px;
+         }
+         .blueSwipe h4, .redSwipe h4, .purpleSwipe h4, .greenSwipe h4, .orangeSwipe h4, .tegetSwipe h4, .yellowSwipe h4, .graySwipe h4 {
+         	padding-top: 0;
+         }
         .navbar-header .collapse, .navbar-toggle {
           display:block !important;
         }
@@ -3054,7 +3134,7 @@ label {
 .yellowSwipe p,
 .graySwipe p {
 	font-size: 12px;
-	padding-top: 5px;
+	padding-top: 0;
 }
 .content p {
 	padding-top: 10px;
@@ -3440,13 +3520,27 @@ label {
 	.tegetSwipe,
 	.yellowSwipe,
 	.graySwipe {
-		width: 45vw;
+		width: 50vw;
 		font-size: 12px;
+	}
+
+	.blueSwipe h4, .redSwipe h4, .purpleSwipe h4, .greenSwipe h4, .orangeSwipe h4, .tegetSwipe h4, .yellowSwipe h4, .graySwipe h4 {
+		font-size: 15px;
+		padding-top: 0;
+	}
+	.ginfo {
+		padding: 5px 5px;
 	}
 	.blueSwipe p, .redSwipe p, .purpleSwipe p, .greenSwipe p, .orangeSwipe p, .tegetSwipe p, .yellowSwipe p, .graySwipe p {
     margin: 0;
-    padding-top: 10px;
+    padding-top: 5px;
     font-size: 10px;
+    padding-left: 5px;
+  }
+  .inf {
+  	margin-left: 5px;
+	font-size: 7px;
+	margin-top: 0;
   }
 	.subm {
 		font-size: 10px;
@@ -4030,7 +4124,7 @@ label {
   }
   #desc4,
   #desc  {
-    right: 40px;
+    left: 40px;
     top: 315px;
   }
 	#des3,
