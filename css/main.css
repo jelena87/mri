@@ -122,6 +122,9 @@ input.form-control {
 	border-radius: 0;
 	background-color: transparent;
 }
+.search:hover {
+	background-color: transparent;
+}
 .search:focus {
 	border: 1px solid #42B7E9;
 }
@@ -520,6 +523,23 @@ input.search2::-moz-placeholder {
 	padding-left: 10px;
 }
 .pace:focus {
+	border: none;
+	background: #ffffff;
+	color: #8E8E8E;
+	box-shadow: none;
+}
+.pace1 {
+	width: 70%;
+	background-color: #ffffff;
+	color: #ffffff;
+	border: none;
+	box-shadow: none;
+	border-radius: 4px;
+	height: 4vh;
+	margin-bottom: 50px;
+	padding-left: 10px;
+}
+.pace1:focus {
 	border: none;
 	background: #ffffff;
 	color: #8E8E8E;
@@ -1258,6 +1278,47 @@ footer p {
 	position: absolute;
 	right: 0;
 	top: 68vh;
+}
+.yes a:hover {
+	text-decoration: none;
+}
+.forma p {
+	color: #ffffff;
+}
+.ginfo {
+	padding: 5px 20px;
+}
+.ginfo input {
+	margin-bottom: 5px;
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+}
+.inf {
+	border-radius: 20px;
+	color: #ffffff;
+	letter-spacing: 3px;
+	border: none;
+	padding: 5px 10px;
+	margin-left: 20px;
+}
+.inpg {
+	color: #ffffff;
+}
+#inf1 {
+	background-color: #3399CC;
+}
+#inf2 {
+	background-color: #CC3333;
+}
+#inf3 {
+	background-color: #66CC66;
+}
+#inf4 {
+	background-color: #925399;
+}
+#inf5 {
+	background-color: #CC6633;
 }
 /* search page */
 .midd {
