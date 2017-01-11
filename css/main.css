@@ -738,10 +738,10 @@ textarea.form-control {
 /*login page*/
 .sign {
 	height: 100vh;
-	background: url(../images/blue.png);
-	background-size: cover;
+	background: url('../images/back.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .sign h3 {
 	font-size: 50px;
@@ -1301,7 +1301,17 @@ footer p {
 	text-decoration: none;
 }
 .forma p {
-	color: #ffffff;
+	color: #939496;
+	font-family: 'Myriad Pro';
+	font-size: 20px;
+}
+.para {
+	position: relative;
+	top: 3vh;
+}
+.des {
+	font-family: 'Source Sans Pro';
+	font-size: 25px;
 }
 .ginfo {
 	padding: 5px 20px;
@@ -1899,6 +1909,17 @@ input[type="checkbox"] {
 .box8 input {
 	color: #000000;
 } 
+.up {
+	margin-bottom: 20px;
+	width: 8vw;
+}
+.des {
+	padding-top: 20px;
+}
+.para h6 {
+	color: #939496;
+	text-align: center;
+}
 @media only screen and (min-width: 2161px) {
 	.box {
 		width: 300px;
@@ -1911,6 +1932,18 @@ input[type="checkbox"] {
 	.logo {
 		margin-left: 100px;
 		width: 200px;
+	}
+	.para h6 {
+		font-size: 10px;
+	}
+	.up {
+		width: 10vw;
+	}
+	.forma p {
+		font-size: 12px;
+	}
+	.para p {
+		font-size: 18px;
 	}
 	.mob {
 		display: none;
@@ -2118,12 +2151,24 @@ input[type="checkbox"] {
 	.mob {
 		display: none;
 	}
+	.up {
+		width: 10vw;
+	}
+	.para h6 {
+		font-size: 10px;
+	}
 	.logo {
 		width: 200px;
 		margin-left: 100px;
 	}
 	.ifn {
 		font-size: 12px;
+	}
+	.forma p {
+		font-size: 12px;
+	}
+	.para p {
+		font-size: 15px;
 	}
 	.logo2 {
 		width: 200px;
@@ -2392,6 +2437,10 @@ input[type="checkbox"] {
 	.red h1 {
 		font-size: 40px;
 		padding-top: 0;
+		margin-top: 10px;
+	}
+	.min p {
+		padding-top: 1vh;
 	}
 	.dash1 {
 		padding: 10px;
@@ -2457,9 +2506,21 @@ label {
 .tegetSwipe h4, 
 .yellowSwipe h4, 
 .graySwipe h4 {
-	font-size: 20px;
+	font-size: 15px;
 	padding-top: 0;
 	padding-bottom: 0;
+	margin: 0;
+}
+.box1 button, 
+.box1 a, 
+.box2 button, .box2 a,
+.box3 button, .box3 a, 
+.box4 button, .box4 a,
+.box5 button, .box5 a,
+.box6 button, .box6 a,
+.box7 button, .box7 a,
+.box8 button, .box8 a {
+	font-size: 10px;
 }
 .inf {
 	margin-top: 5px;
@@ -3045,6 +3106,15 @@ label {
         .navbar-collapse.collapse.in {
           display: block !important;
         }
+        .up {
+        	width: 15vw;
+        }
+        .forma p {
+        	font-size: 10px;
+        }
+        .para p {
+        	font-size: 15px;
+        }
         .blueSwipe, 
         .redSwipe, 
         .greenSwipe,
@@ -3463,6 +3533,25 @@ label {
 	.login1 {
 		width: 100%;
 	}
+	.forma p {
+		font-size: 8px;
+	}
+	.para h6 {
+		font-size: 8px;
+	}
+	.para {
+		position: relative;
+		top: -15vh;
+	}
+	.para p {
+		font-size: 12px;
+	}
+	.up {
+		width: 15vw;
+	}
+	.onp {
+		top: -20vh;
+	}
 	.subm a {
     		margin-top: 5px;
     	}
@@ -3520,13 +3609,14 @@ label {
 	.tegetSwipe,
 	.yellowSwipe,
 	.graySwipe {
-		width: 50vw;
+		width: 90vw;
 		font-size: 12px;
 	}
 
 	.blueSwipe h4, .redSwipe h4, .purpleSwipe h4, .greenSwipe h4, .orangeSwipe h4, .tegetSwipe h4, .yellowSwipe h4, .graySwipe h4 {
 		font-size: 15px;
 		padding-top: 0;
+		margin: 0;
 	}
 	.ginfo {
 		padding: 5px 5px;

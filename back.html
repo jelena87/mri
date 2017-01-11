@@ -70,7 +70,7 @@
 			<div class="col-lg-3 col-md-3 col-sm-3 ">
 				<div class="swipeT"></div>
 				<div class="tegetSwipe" style="display: none;">
-                <div class="general">
+                <div class="general" id="general6">
                         <h4>General Informations</h4>
                         <div class="ginfo">
                        <p class="lf">Name:</p> <input type="text" name="name"><br>
@@ -82,7 +82,7 @@
                         </div>
                         <button type="" class="inf" id="inf6">Submit</button>
                     </div>
-                    <div class="content" style="display:none">
+                    <div class="content" style="display:none" id="su1">
                     <h4>Is it a Medical Implant or Foreign Object?</h4>
                         <div class="box1">
                             <p>
@@ -94,11 +94,11 @@
                                 <label for="c2">Medical implant</label>
                             </p>
                             <p>
-                                <button type="" class="secnd">Submit</button>
+                                <button type="" class="secnd" id="btn6">Submit</button>
                             </p>
                         </div>
                     </div>
-                    <div class="content1" style="display: none;">
+                    <div class="content1" style="display: none;" id="su2">
                         <h4>Foreign object</h4>
                         <div class="box1">
                             <p>
@@ -130,7 +130,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="content2" style="display: none;">
+                    <div class="content2" style="display: none;" id="su3">
                         <h4>Medical implant</h4>
                         <div class="box1">
                             <p>
@@ -166,7 +166,7 @@
 				</div>
 				<div class="swipeY"></div>
 				<div class="yellowSwipe" style="display: none;">
-                <div class="general">
+                <div class="general" id="general7">
                         <h4>General Informations</h4>
                         <div class="ginfo">
                        <p class="lf">Name:</p> <input type="text" name="name"><br>
@@ -178,7 +178,7 @@
                         </div>
                         <button type="" class="inf" id="inf7">Submit</button>
                     </div>
-					<div class="content" style="display: none;">
+					<div class="content" style="display: none;" id="su4">
                     <h4>Is it a Medical Implant or Foreign Object?</h4>
                         <div class="box2">
                             <p class="ch1">
@@ -190,11 +190,11 @@
                                 <label for="c4">Medical implant</label>
                             </p>
                             <p>
-                                <button type="" class="secnd">Submit</button>
+                                <button type="" class="secnd" id="btn7">Submit</button>
                             </p>
                         </div>
                     </div>
-                    <div class="content1" style="display: none;">
+                    <div class="content1" style="display: none;" id="su5">
                         <h4>Foreign object</h4>
                         <div class="box2">
                             <p>
@@ -226,7 +226,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="content2" style="display: none;">
+                    <div class="content2" style="display: none;" id="su6">
                         <h4>Medical implant</h4>
                         <div class="box2">
                             <p>
@@ -262,7 +262,7 @@
 				</div>
 				<div class="swipeGr"></div>
 				<div class="graySwipe" style="display: none;">
-                <div class="general">
+                <div class="general" id="general8">
                         <h4>General Informations</h4>
                         <div class="ginfo">
                        <p class="lf">Name:</p> <input type="text" name="name"><br>
@@ -274,7 +274,7 @@
                         </div>
                         <button type="" class="inf" id="inf8">Submit</button>
                     </div>
-					<div class="content" style="display: none;">
+					<div class="content" style="display: none;" id="su7">
                     <h4>Is it a Medical Implant or Foreign Object?</h4>
                         <div class="box3">
                             <p>
@@ -286,11 +286,11 @@
                                 <label for="c6">Medical implant</label>
                             </p>
                             <p>
-                                <button type="" class="secnd">Submit</button>
+                                <button type="" class="secnd" id="btn8">Submit</button>
                             </p>
                         </div>
                     </div>
-                    <div class="content1" style="display: none;">
+                    <div class="content1" style="display: none;" id="su8">
                         <h4>Foreign object</h4>
                         <div class="box3">
                             <p>
@@ -322,7 +322,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="content2" style="display: none;">
+                    <div class="content2" style="display: none;" id="su9">
                         <h4>Medical implant</h4>
                         <div class="box3">
                             <p>
@@ -420,21 +420,57 @@
     function hiddenS() {
         document.getElementById("des3").style.visibility= "hidden";
     }
-     $(document).ready(function() {
-        $(".inf").click(function() {
-            $(".general").hide();
-            $(".content").show();
+    $(document).ready(function() {
+        $("#inf6").click(function() {
+            $("#general6").hide();
+            $("#su1").show();
         });
     });
     $(document).ready(function() {
-        $(".secnd").click(function() {
-            check = $(".c1").is(":checked");
+        $("#btn6").click(function() {
+            check = $("#c1").is(":checked");
             if(check) {
-                $(".content").hide();
-                $(".content1").show();
+                $("#su1").hide();
+                $("#su2").show();
             } else {
-                $(".content").hide();
-                $(".content2").show();
+                $("#su1").hide();
+                $("#su3").show();
+            }
+        });
+    });
+    $(document).ready(function() {
+        $("#inf7").click(function() {
+            $("#general7").hide();
+            $("#su4").show();
+        });
+    });
+    $(document).ready(function() {
+        $("#btn7").click(function() {
+            check = $("#c3").is(":checked");
+            if(check) {
+                $("#su4").hide();
+                $("#su5").show();
+            } else {
+                $("#su4").hide();
+                $("#su6").show();
+            }
+        });
+    });
+    $(document).ready(function() {
+        $("#inf8").click(function() {
+            $("#general8").hide();
+            $("#su7").show();
+        });
+    });
+    $(document).ready(function() {
+        $("#btn8").click(function() {
+            check = $("#c5").is(":checked");
+            if(check) {
+                $("#su7").hide();
+                $("#su8").show();
+            } else {
+                $("#su7").hide();
+                $("#su9").show();
             }
         });
     });
