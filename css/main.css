@@ -738,6 +738,13 @@ textarea.form-control {
 /*login page*/
 .sign {
 	height: 100vh;
+	background: url('../images/blue.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sign1 {
+	height: 100vh;
 	background: url('../images/back.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
