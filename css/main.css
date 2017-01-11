@@ -404,6 +404,12 @@ iframe {
 	font-size: 18px;
 	padding-bottom: 5px;
 }
+.footer li a {
+	font-family: 'Source Sans Pro Light';
+	font-size: 18px;
+	padding-bottom: 5px;
+	color: #ffffff;
+}
 .social {
 	text-align: center;
 }
