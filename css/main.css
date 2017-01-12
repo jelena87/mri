@@ -538,12 +538,13 @@ input.search2::-moz-placeholder {
 	width: 70%;
 	background-color: #ffffff;
 	color: #ffffff;
-	border: none;
+	border: 1px solid #42B7E9;
 	box-shadow: none;
 	border-radius: 4px;
 	height: 4vh;
 	margin-bottom: 50px;
 	padding-left: 10px;
+	margin-left: 30px;
 }
 .pace1:focus {
 	border: none;
@@ -1395,8 +1396,12 @@ footer p {
 .forma {
 	text-align: center;
 	margin: auto;
-	height: 10vh;
+	height: 30vh;
 	width: 50vw;
+}
+.search1 {
+	position: relative;
+	top: 3vh;
 }
 /* back page */
 .tegetSwipe {
@@ -2826,6 +2831,9 @@ label {
         .subm a {
     		margin-top: 10px;
     	}
+    	.forma {
+    		height: 50vh;
+    	}
         .navbar-header {
           float:none;
     	} 
@@ -3121,6 +3129,9 @@ label {
         }
         .up {
         	width: 15vw;
+        }
+        .forma {
+        	height: 50vh;
         }
         .forma p {
         	font-size: 10px;
@@ -3545,6 +3556,9 @@ label {
 	}
 	.login1 {
 		width: 100%;
+	}
+	.search1 {
+		top: -15vh;
 	}
 	.forma p {
 		font-size: 8px;
