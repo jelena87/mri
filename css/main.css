@@ -3560,6 +3560,9 @@ label {
 	.search1 {
 		top: -15vh;
 	}
+	.pace1 {
+		margin-left: 0;
+	}
 	.forma p {
 		font-size: 8px;
 	}
