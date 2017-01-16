@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 <html lang="en" id="fix">
 <head>
@@ -78,18 +77,22 @@
 				<div class="swipeB"></div>
 				<div class="blueSwipe" style="display: none;">
                     <div class="general" id="general1">
-                        <h4>General Informations</h4>
-                        <div class="ginfo">
-                       <p class="lf">Name:</p> <input type="text" name="name"><br>
-                        <p class="lf">DOB:</p><input type="text" name="dob"><br>
-                        <p class="lf">Email:</p><input type="text" name="mail"><br>
-                        <p class="lf">Last 4 SSN:</p><input type="text" name="ssn"><br>
-                        <p class="lf">Height:</p><input type="text" name="height"><br>
-                        <p class="lf">Weight:</p><input type="text" name="weight"><br>
-                        </div>
+                    <form class="ginfo">
+                        <legend>General Informations</legend>
+                       
+                       Name: <input type="text" name="name" required=""><br>
+                       DOB:<input type="text" name="dob"><br>
+                        Email:<input type="text" name="mail"><br>
+                        Last 4 SSN:<input type="text" name="ssn"><br>
+                        Height:<input type="text" name="height"><br>
+                       Weight:<input type="text" name="weight"><br>
+                        
                         <button class="inf" id="inf1">Submit</button>
+                        </form>
+
                     </div>
 					<div class="content" style="display: none;" id="content1">
+                    <form class="myForm">
                     <h4>Is it a Medical Implant or Foreign Object?</h4>
                         <div class="box4">
                             <p>
@@ -104,6 +107,7 @@
                                 <button class="secnd" id="btn1">Submit</button>
                             </p>
                         </div>
+                        </form>
                     </div>
                     <div class="content1" style="display: none;" id="content2">
                         <h4>Foreign object</h4>

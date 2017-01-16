@@ -874,7 +874,7 @@ background: url("../images/circle7.png") no-repeat center;
 }
 @media only screen and (min-width: 360px) and (max-width: 370px) {
   #ear {
-      left: 190px;
+      left: 170px;
       top: -12px;
     }
     #cameras {
@@ -894,7 +894,7 @@ background: url("../images/circle7.png") no-repeat center;
       top: 165px;
     }
     #head {
-    left: 185px;
+    left: 170px;
     top: -15px;
   }
   #back {
