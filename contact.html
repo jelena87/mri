@@ -21,7 +21,22 @@
 
 	<!--css-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
+<style>
+    .gm-style-iw * {
+        display: block;
+        width: 100%;
+    }
+    .gm-style-iw h4, .gm-style-iw p {
+        margin: 0;
+        padding: 0;
+    }
+    .gm-style-iw a {
+        color: #4272db;
+    }
+    .gm-style-iw img {
+      color: #FF3333;
+    }
+</style>
 	
 </head>
 
@@ -425,52 +440,33 @@
 link = '';     }
 
 }
-</script>
-<style>
-    .gm-style-iw * {
-        display: block;
-        width: 100%;
-    }
-    .gm-style-iw h4, .gm-style-iw p {
-        margin: 0;
-        padding: 0;
-    }
-    .gm-style-iw a {
-        color: #4272db;
-    }
-    .gm-style-iw img {
-    	color: #FF3333;
-    }
-</style>
-
-<script>
 $(document).ready(function(){
 
-	// hide #back-top first
-	$("img.top").hide();
-	
-	// fade in #back-top
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 100) {
-				$('img.top').fadeIn();
-			} else {
-				$('img.top').fadeOut();
-			}
-		});
+  // hide #back-top first
+  $("img.top").hide();
+  
+  // fade in #back-top
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $('img.top').fadeIn();
+      } else {
+        $('img.top').fadeOut();
+      }
+    });
 
-		// scroll body to 0px on click
-		$('img.top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-			return false;
-		});
-	});
+    // scroll body to 0px on click
+    $('img.top').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  });
 
 });
 $(document).ready(function() {
-	// Form validation
+  // Form validation
         $('.error-required-name').hide();
         $('.error-required-mail').hide();
         $('.error-msg').hide();
@@ -547,8 +543,6 @@ $(document).ready(function() {
 
         }); // end click
     });
-    
-
 	</script>
 
 </body>
