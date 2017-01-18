@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" id="fix">
 <head>
@@ -23,8 +22,8 @@
 	<!--css-->
     <link rel="stylesheet" type="text/css" href="css/ex.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
-	
+    <script type='text/javascript' src="js/form.js"></script>
+    <script type='text/javascript' src="js/form2.js"></script>
 </head>
 
 <body>
@@ -99,11 +98,12 @@
                         </div>
                     </div>
                     <div class="content1" style="display: none;" id="su2">
+                    <form name="info01" id="info01">
                         <h4>Foreign object</h4>
                         <div class="box1">
                             <p>
                                 Select type:<br>
-                                    <select name="objects">
+                                    <select name="objects" class="foreignObject">
                                     <option value="">Foreign object 1</option>
                                     <option value="">Foreign object 2</option>
                                     <option value="">Foreign object 3</option>
@@ -114,7 +114,7 @@
                             </p>
                             <p>
                             Where is it approximately?<br>
-                                <select name="place">
+                                <select name="place" class="placeObject">
                                     <option value="">Place 1</option>
                                     <option value="">Place 2</option>
                                     <option value="">Place 3</option>
@@ -122,15 +122,18 @@
                                     </select>
                             </p>
                             <p>
-                                Month/Year of incident:<br>
-                                <input type="text" name="month">
+                                Month/Year of incident:</p>
+                             <p class="make">   <input type="date" name="month" class="monthObject">
                             </p>
                             <p>
-                                <a href="risk.html" class="btn btn-default">Submit</a>
+                                <button type="submit" onclick="myFunction()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <button type="submit" class="inf submit_form" onclick="myFunction()">Add Another</button>
                             </p>
                         </div>
+                        </form>
                     </div>
                     <div class="content2" style="display: none;" id="su3">
+                    <form name="info02" id="info02">
                         <h4>Medical implant</h4>
                         <div class="box1">
                             <p>
@@ -139,14 +142,14 @@
                                 <label for="b-3">Yes</label></p>
                                 <div class="yes" style="display: none;">
                                 <p>Input Make and Model info:</p>
-                               <p> <input type="text"/></p><br>
+                               <p> <input type="text" class="modelImplant" /></p><br>
                                <p>or upload your implant card <a href="upload.html" class="gr">HERE</a></p>
                                 </div>
                               <p class="ch2">  <input type="checkbox" id="b-4" name="cb" class="checkbox2">
                                 <label for="b-4">No</label></p>
                                 <div class="no" style="display: none;">
                                   <p>What type of Implant?</p> 
-                                <p>   <select name="place">
+                                <p>   <select name="place" class="typeImplant">
                                     <option value="">Implant 1</option>
                                     <option value="">Implant 2</option>
                                     <option value="">Implant 3</option>
@@ -156,12 +159,14 @@
                            
                             <p>
                             When did you get this implant?</p>
-                             <p>  <input type="text" name="month"> 
+                             <p class="make">  <input type="date" name="month" class="monthImplant"> 
                             </p>
                             <p>
-                                <a href="risk.html" class="btn btn-default">Submit</a>
+                                <button type="submit" onclick="myFunction2()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <button type="submit" class="inf submit_form" onclick="myFunction2()">Add Another</button>
                             </p>
                         </div>
+                        </form>
                     </div>
 				</div>
 				<div class="swipeY"></div>
@@ -195,11 +200,12 @@
                         </div>
                     </div>
                     <div class="content1" style="display: none;" id="su5">
+                    <form name="info03" id="info03">
                         <h4>Foreign object</h4>
                         <div class="box2">
                             <p>
                                 Select type:<br>
-                                    <select name="objects">
+                                    <select name="objects" class="foreignObject">
                                     <option value="">Foreign object 1</option>
                                     <option value="">Foreign object 2</option>
                                     <option value="">Foreign object 3</option>
@@ -210,7 +216,7 @@
                             </p>
                             <p>
                             Where is it approximately?<br>
-                                <select name="place">
+                                <select name="place" class="placeObject">
                                     <option value="">Place 1</option>
                                     <option value="">Place 2</option>
                                     <option value="">Place 3</option>
@@ -218,15 +224,19 @@
                                     </select>
                             </p>
                             <p>
-                                Month/Year of incident:<br>
-                                <input type="text" name="month">
+                                Month/Year of incident:</p>
+                             <p class="make">
+                           <input type="date" name="month" class="monthObject"></p>
                            
                             <p>
-                                <a href="risk.html" class="btn btn-default">Submit</a>
+                                <button type="submit" onclick="myFunction()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <button type="submit" class="inf submit_form" onclick="myFunction()">Add Another</button>
                             </p>
                         </div>
+                        </form>
                     </div>
                     <div class="content2" style="display: none;" id="su6">
+                    <form name="info04" id="info04">
                         <h4>Medical implant</h4>
                         <div class="box2">
                             <p>
@@ -235,14 +245,14 @@
                                 <label for="b-5">Yes</label></p>
                                 <div class="yes" style="display: none;">
                                 <p>Input Make and Model info:</p>
-                               <p> <input type="text"/></p><br>
+                               <p> <input type="text" class="modelImplant" /></p><br>
                                <p>or upload your implant card <a href="upload.html" class="gr">HERE</a></p>
                                 </div>
                              <p class="ch2">   <input type="checkbox" id="b-6" name="cb" class="checkbox2">
                                 <label for="b-6">No</label></p>
                                 <div class="no" style="display: none;">
                                   <p>What type of Implant?</p> 
-                                 <p>  <select name="place">
+                                 <p>  <select name="place" class="typeImplant">
                                     <option value="">Implant 1</option>
                                     <option value="">Implant 2</option>
                                     <option value="">Implant 3</option>
@@ -252,12 +262,14 @@
                            
                             <p>
                             When did you get this implant?</p>
-                            <p>   <input type="text" name="month"> 
+                            <p class="make">   <input type="date" name="month" class="monthImplant"> 
                             </p>
                             <p>
-                                <a href="risk.html" class="btn btn-default">Submit</a>
+                                <button type="submit" onclick="myFunction2()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <button type="submit" class="inf submit_form" onclick="myFunction2()">Add Another</button>
                             </p>
                         </div>
+                        </form>
                     </div>
 				</div>
 				<div class="swipeGr"></div>
@@ -291,11 +303,12 @@
                         </div>
                     </div>
                     <div class="content1" style="display: none;" id="su8">
+                    <form name="info05" id="info05">
                         <h4>Foreign object</h4>
                         <div class="box3">
                             <p>
                                 Select type:<br>
-                                    <select name="objects">
+                                    <select name="objects" class="foreignObject">
                                     <option value="">Foreign object 1</option>
                                     <option value="">Foreign object 2</option>
                                     <option value="">Foreign object 3</option>
@@ -306,7 +319,7 @@
                             </p>
                             <p>
                             Where is it approximately?<br>
-                                <select name="place">
+                                <select name="place" class="placeObject">
                                     <option value="">Place 1</option>
                                     <option value="">Place 2</option>
                                     <option value="">Place 3</option>
@@ -314,15 +327,18 @@
                                     </select>
                             </p>
                             <p>
-                                Month/Year of incident:<br>
-                                <input type="text" name="month">
+                                Month/Year of incident:</p>
+                             <p class="make">   <input type="date" name="month" class="monthObject">
                             </p>
                             <p>
-                                <a href="risk.html" class="btn btn-default">Submit</a>
+                                <button type="submit" onclick="myFunction()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <button type="submit" class="inf submit_form" onclick="myFunction()">Add Another</button>
                             </p>
                         </div>
+                        </form>
                     </div>
                     <div class="content2" style="display: none;" id="su9">
+                    <form name="info06" id="info06">
                         <h4>Medical implant</h4>
                         <div class="box3">
                             <p>
@@ -331,14 +347,14 @@
                                 <label for="c-1">Yes</label></p>
                                 <div class="yes" style="display: none;">
                                 <p>Input Make and Model info:</p>
-                                <p><input type="text"/></p>
+                                <p><input type="text" class="modelImplant"/></p>
                                 <p>or upload your implant card <a href="upload.html" class="gr">HERE</a></p>
                                 </div>
                              <p class="ch2">   <input type="checkbox" id="c-2" name="cb" class="checkbox2">
                                 <label for="c-2">No</label></p>
                                 <div class="no" style="display: none;">
                                   <p>What type of Implant?</p> 
-                                 <p>  <select name="place">
+                                 <p>  <select name="place" class="typeImplant">
                                     <option value="">Implant 1</option>
                                     <option value="">Implant 2</option>
                                     <option value="">Implant 3</option>
@@ -348,12 +364,14 @@
                             
                             <p>
                             When did you get this implant?</p>
-                             <p>  <input type="text" name="month"> 
+                             <p class="make">  <input type="date" name="month" class="monthImplant"> 
                             </p>
                             <p>
-                                <a href="risk.html" class="btn btn-default">Submit</a>
+                               <button type="submit" onclick="myFunction2()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <button type="submit" class="inf submit_form" onclick="myFunction2()">Add Another</button>
                             </p>
                         </div>
+                        </form>
                     </div>
 				</div>
 			</div>
@@ -503,6 +521,13 @@
    $('input[type="checkbox"]').not(this).prop('checked', false);
 });
     });
+    function validateForm() {
+        var x = document.forms['info05']['month'].value;
+        if(x == "") {
+            alert("this field is required");
+            return false;
+        }
+    }
     </script>
 </body>
 </html>

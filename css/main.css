@@ -1178,6 +1178,9 @@ footer p {
 	height: 30vh;
 	margin-bottom: 10px;
 }
+.make {
+	padding-bottom: 15px;
+}
 .btn-info,
 .btn-danger {
 	display: block;
@@ -1350,6 +1353,7 @@ footer p {
 	padding: 5px 10px;
 	margin-left: 40px;
 	margin-top: 15px;
+	font-size: 14px;
 }
 .inpg {
 	color: #ffffff;
@@ -2526,8 +2530,8 @@ label {
 .yellowSwipe h4, 
 .graySwipe h4 {
 	font-size: 15px;
-	padding-top: 0;
-	padding-bottom: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	margin: 0;
 }
 .box1 button, 
@@ -3662,7 +3666,9 @@ label {
   	margin-left: 5px;
 	font-size: 7px;
 	margin-top: 0;
+	font-size: 10px;
   }
+
 	.subm {
 		font-size: 10px;
 	}
