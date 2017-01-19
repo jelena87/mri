@@ -30,7 +30,7 @@
 
 	<nav class="navbar navbar-default b">
 		<div class="header">
-			<img src="images/logo1.png" class="img-responsive logo2" alt="">
+			<img src="images/MRI-Safety-Wht.png" class="img-responsive logo2" alt="">
 		</div>
 		<div class="s">
 			<ul class="rightNav">
@@ -126,7 +126,7 @@
                              <p class="make">   <input type="date" name="month" class="monthObject">
                             </p>
                             <p>
-                                <button type="submit" onclick="myFunction()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <a href="risk.html" class="btn btn-default submit_form" onclick="myFunction()">Submit</a>
                                 <button type="submit" class="inf submit_form" onclick="myFunction()">Add Another</button>
                             </p>
                         </div>
@@ -162,7 +162,7 @@
                              <p class="make">  <input type="date" name="month" class="monthImplant"> 
                             </p>
                             <p>
-                                <button type="submit" onclick="myFunction2()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <a href="risk.html" class="btn btn-default submit_form" onclick="myFunction()">Submit</a>
                                 <button type="submit" class="inf submit_form" onclick="myFunction2()">Add Another</button>
                             </p>
                         </div>
@@ -229,7 +229,7 @@
                            <input type="date" name="month" class="monthObject"></p>
                            
                             <p>
-                                <button type="submit" onclick="myFunction()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <a href="risk.html" class="btn btn-default submit_form" onclick="myFunction()">Submit</a>
                                 <button type="submit" class="inf submit_form" onclick="myFunction()">Add Another</button>
                             </p>
                         </div>
@@ -265,7 +265,7 @@
                             <p class="make">   <input type="date" name="month" class="monthImplant"> 
                             </p>
                             <p>
-                                <button type="submit" onclick="myFunction2()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <a href="risk.html" class="btn btn-default submit_form" onclick="myFunction()">Submit</a>
                                 <button type="submit" class="inf submit_form" onclick="myFunction2()">Add Another</button>
                             </p>
                         </div>
@@ -303,7 +303,7 @@
                         </div>
                     </div>
                     <div class="content1" style="display: none;" id="su8">
-                    <form name="info05" id="info05">
+                    <form name="info05" id="info05" onsubmit="return validateForm()">
                         <h4>Foreign object</h4>
                         <div class="box3">
                             <p>
@@ -331,7 +331,7 @@
                              <p class="make">   <input type="date" name="month" class="monthObject">
                             </p>
                             <p>
-                                <button type="submit" onclick="myFunction()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                                <a href="risk.html" class="btn btn-default submit_form" onclick="myFunction()">Submit</a>
                                 <button type="submit" class="inf submit_form" onclick="myFunction()">Add Another</button>
                             </p>
                         </div>
@@ -367,7 +367,7 @@
                              <p class="make">  <input type="date" name="month" class="monthImplant"> 
                             </p>
                             <p>
-                               <button type="submit" onclick="myFunction2()"> <a href="risk.html" class="submit_form">Submit</a></button>
+                               <a href="risk.html" class="btn btn-default submit_form" onclick="myFunction()">Submit</a>
                                 <button type="submit" class="inf submit_form" onclick="myFunction2()">Add Another</button>
                             </p>
                         </div>
@@ -380,7 +380,7 @@
 
 
 	<div class="container-fluid min1">
-        <p>Property of MRI Safety Regulator 2016.</p>
+        <p>Property of MRI Safety Assistant 2016.</p>
     </div>
 
 	<script type="text/javascript">
@@ -524,10 +524,17 @@
     function validateForm() {
         var x = document.forms['info05']['month'].value;
         if(x == "") {
-            alert("this field is required");
+            alert("All Fields Are Required!");
             return false;
         }
     }
+    $(".info").submit(function(){
+    var checked = $(".info input:checked").length > 0;
+    if (!checked){
+        alert("Please check at least one checkbox");
+        return false;
+    }
+});
     </script>
 </body>
 </html>

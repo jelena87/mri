@@ -256,7 +256,7 @@ h2 {
 }
 .third {
 	height: 80vh;
-	background: url(../images/third1.png);
+	background: url(../images/1.5.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 90%;
@@ -281,7 +281,7 @@ h3 {
 }
 .forth {
 	height: 80vh;
-	background: url(../images/mri3.jpg);
+	background: url(../images/1.6.png);
 	background-repeat: no-repeat;
 	background-position: top;
 	width: 90%;
@@ -351,7 +351,7 @@ h3 {
 	text-align: center;
 }
 .emb {
-	background: url(../images/video2.png);
+	background: url(../images/1.7.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1603,6 +1603,9 @@ footer p {
   background: transparent;
   color: #ffffff;
 }
+.secnd {
+	font-size: 14px;
+}
 .box1 button,
 .box1 a {
 	color: #333366;
@@ -2544,6 +2547,7 @@ label {
 .box7 button, .box7 a,
 .box8 button, .box8 a {
 	font-size: 10px;
+	padding: 4px 10px;
 }
 .inf {
 	margin-top: 5px;
@@ -2882,6 +2886,9 @@ label {
 .inf {
 	font-size: 10px;
 }
+.secnd {
+	font-size: 10px;
+}
 	.white {
 		bottom: 950px;
 	}
@@ -3158,6 +3165,9 @@ label {
          	font-size: 12px;
          	margin-top: 5px;
          }
+         .secnd {
+         	font-size: 12px;
+         }
          .blueSwipe h4, .redSwipe h4, .purpleSwipe h4, .greenSwipe h4, .orangeSwipe h4, .tegetSwipe h4, .yellowSwipe h4, .graySwipe h4 {
          	padding-top: 0;
          }
@@ -3179,6 +3189,7 @@ label {
 	.box7 a,
 	.box8 a {
 		font-size: 12px;
+		padding: 4px 10px;
 	}
 	.well {
 		display: none;
@@ -3562,6 +3573,9 @@ label {
 	.login1 {
 		width: 100%;
 	}
+	.secnd { 
+		font-size: 10px;
+	 }
 	.search1 {
 		top: -15vh;
 	}
@@ -3605,6 +3619,7 @@ label {
 	.box7 a,
 	.box8 a {
 		font-size: 10px;
+		padding: 4px 10px;
 	}
 	.logos {
 		padding-bottom: 30px;
@@ -3668,7 +3683,6 @@ label {
 	margin-top: 0;
 	font-size: 10px;
   }
-
 	.subm {
 		font-size: 10px;
 	}
