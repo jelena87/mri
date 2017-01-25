@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" id="fix">
 <head>
@@ -37,36 +36,44 @@
 					<div class="form-group hole">
 						<label for="name">First and Last name</label>
 						<input type="text" name="name" id="name" class="form-control acc">
+						<span class="error-required-name">Name field is required text only</span>
 					</div>
 					<div class="form-group hole">
 						<label for="user">Username</label>
 						<input type="text" name="user" id="user" class="form-control acc">
+						<span class="error-required-user">Username field is required text only</span>
 					</div>
 					<div class="form-group hole">
-						<label for="mail">E-Mail Adress</label>
-						<input type="text" name="mail" id="mail" class="form-control acc">
+						<label for="email">E-Mail Adress</label>
+						<input type="text" name="email" id="email" class="form-control acc">
+						<span class="error-required-mail">Mail field is required, enter valid email</span>
 					</div>
 					<div class="form-group hole">
 						<label for="date">Date of Birth</label>
 						<input type="text" name="date" id="date" class="form-control acc">
+						<span class="error-required-date">Field is required, enter valid date of birth</span>
 					</div>
 					</div>
 					<div class="col-lg-6 col-md-6">
 					<div class="form-group hole">
 						<label for="ssn">SSN Four Last Digits</label>
 						<input type="text" name="ssn" id="ssn" class="form-control acc">
+						<span class="error-required-ssn">SSN field is required, enter valid SSN</span>
 					</div>
 					<div class="form-group hole">
 						<label for="pass">Password</label>
 						<input type="Password" name="pass" id="pass" class="form-control acc">
+						<span class="error-required-pass">Password field is required</span>
 					</div>
 					<div class="form-group hole">
 						<label for="re">Re-Type Password</label>
 						<input type="Password" name="re" id="re" class="form-control acc">
+						<span class="error-required-re">Password field is required</span>
 					</div>
 					<div class="form-group hole">
-						<a href="patient.html" class="form-control logAcc">Login</a>
+						<button type="submit" class="form-control logAcc" id="submit-mail" name="submit_id">Login</button>
 					</div>
+					<div class="result"></div>
 					</div>
 					<p class="policy">By clicking Create Account, I agree to the<br> <span>Terms of Service and Privacy Policy</span></p>
 				</form>
@@ -75,6 +82,127 @@
 			</div>
 		</div>
 	</div>
+	<script>
+	$(document).ready(function() {
+  // Form validation
+        $('.error-required-pass').hide();
+        $('.error-required-mail').hide();
+        $('.error-required-name').hide();
+        $('.error-required-date').hide();
+        $('.error-required-re').hide();
+        $('.error-required-user').hide();
+        $('.error-required-ssn').hide();
 
+         $('#name').on("blur", function() {
+            if($(this).val() == '' && $(this).val().match(/^[A-Za-z -]+$/i)) {
+                $('.error-required-name').show();
+                return false;
+            } else if(!$(this).val().match(/^[A-Za-z -]+$/i)) {
+                $('.error-required-name').show();
+                return false;
+            } else {
+                $('.error-required-name').hide();
+            }
+        });
+          $('#user').on("blur", function() {
+            if($(this).val() == '' && $(this).val().match(/^[A-Za-z -]+$/i)) {
+                $('.error-required-user').show();
+                return false;
+            } else if(!$(this).val().match(/^[A-Za-z -]+$/i)) {
+                $('.error-required-user').show();
+                return false;
+            } else {
+                $('.error-required-user').hide();
+            }
+        });
+        $('#email').on("blur", function() {
+             if ( $(this).val() == '' ) {
+                 $('.error-required-mail').show();
+                 return false;
+             } else if (!$(this).val().match(/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/)){
+                 $('.error-required-mail').show();
+                 return false;
+             } else {
+                 $('.error-required-mail').hide();
+             }
+        });
+        $('#date').on("blur", function() {
+             if ( $(this).val() == '' ) {
+                 $('.error-required-date').show();
+                 return false;
+             } else if (!$(this).val().match(/[^0-9\-\\+\(\)\s]/g, '')){
+                 $('.error-required-date').show();
+                 return false;
+             } else {
+                 $('.error-required-date').hide();
+             }
+        });
+        $('#ssn').on("blur", function() {
+             if ( $(this).val() == '' ) {
+                 $('.error-required-ssn').show();
+                 return false;
+             } else if (!$(this).val().match(/[^0-9\-\\+\(\)\s]/g, '')){
+                 $('.error-required-ssn').show();
+                 return false;
+             } else {
+                 $('.error-required-ssn').hide();
+             }
+        });
+        $('#pass').on("blur", function() {
+             if ( $(this).val() == '' ) {
+                 $('.error-required-pass').show();
+                 return false;
+             } else {
+                 $('.error-required-pass').hide();
+             }
+        });
+        $('#re').on("blur", function() {
+             if ( $(this).val() == '' ) {
+                 $('.error-required-re').show();
+                 return false;
+             } else {
+                 $('.error-required-re').hide();
+             }
+        });
+
+        // Send data on click
+        $('#submit-mail').click(function(){
+        	var name = $('#name').val();
+            var user = $('#user').val();
+            var email = $('#email').val();
+            var date = $('#date').val();
+            var ssn = $('#ssn').val();
+            var pass = $('#pass').val();
+            var re = $('#re').val();
+            
+
+            var b = { 'email': email, 'pass': pass, 'name': name, 'user': user, 'date':date, 'ssn': ssn, 're': re};
+         $.ajax({
+          type: 'POST',
+          url: 'some.php',
+          data: b,
+          success: function(response) {
+                    $('.result').html(response);
+                console.log(response);
+          },
+          error: function(response) {
+           console.log(response);
+          }
+         }); //end ajax
+            $('#email').val('');
+            $('#pass').val('');
+            $('#re').val('');
+            $('#name').val('');
+            $('#user').val('');
+            $('#date').val('');
+            $('#ssn').val('');
+            
+        }); // end click
+    });
+    $('#submit-mail').click(function(){
+   window.location.href='patient.html';
+   return false;
+})
+	</script>
 </body>
 </html>
