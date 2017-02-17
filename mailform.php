@@ -2,7 +2,7 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $email_to = "jelena.zvnvc87@gmail.com";
+    $email_to = "";
 
     $email_subject = "Contact Form";
 

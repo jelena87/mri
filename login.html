@@ -31,20 +31,20 @@
 			<div class="col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 middle1">
 				<h3>Login here</h3>
 				<p class="w1">Feel free to ask anything about our products.</p>
-				<form class="login1">
+				<form class="login1" action="patient.html">
 						<div class="form-group hole">
 							<label for="email">EMAIL ADDRESS</label>
-							<input type="text" name="email" id="email" class="form-control user">
-							<span class="error-required-mail">Mail field is required, enter valid email</span>
+							<input type="text" name="email" id="email" class="form-control user" required>
+							
 						</div>
 						<div class="form-group hole">
 							<label for="pass">CREATE PASSWORD</label>
-							<input type="password" name="pass" id="pass" class="form-control user">
-							<span class="error-required-pass">Password field is required, enter valid password</span>
+							<input type="password" name="pass" id="pass" class="form-control user" required>
+							
 						</div>
 						<div class="form-group hole">
 						<p class="inside">By clicking Create Account, I agree to the<br> <span>Terms of Service and Privacy Policy</span></p>
-						<button type="submit" class="form-control log1" id="submit-mail" name="submit_id">Login</button>
+						<button type="submit" class="form-control log1" id="submit-mail" name="submit_id" onclick="sendMail(); return false">Login</button>
 					</div>
 					<div class="result"></div>
 					</form>
@@ -54,7 +54,7 @@
 			</div>
 		</div>
 		<script>
-	$(document).ready(function() {
+/* 	$(document).ready(function() {
   // Form validation
         $('.error-required-pass').hide();
         $('.error-required-mail').hide();
@@ -106,10 +106,18 @@
             
         }); // end click
     });
-    $('#submit-mail').click(function(){
+   $('#submit-mail').click(function(){
    window.location.href='patient.html';
    return false;
-})
+}) */
+function sendMail() {
+    var link = "mailto:me@example.com"
+             + "?cc=myCCaddress@example.com"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + escape(document.getElementById('message').value)
+    ;
+    window.location.href = link;
+}
 		</script>
 	</body>
 </html>
